@@ -4,19 +4,17 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Badge } from "./ui/badge";
 
 interface SearchFormProps {
-  onSearch: (query: string, searchType: SearchType, category: string, selectedTags: string[]) => void;
+  onSearch: (query: string, searchType: SearchType, category: string) => void;
   categories: string[];
-  tags: string[];
 }
 
-export type SearchType = "all" | "name" | "description" | "category" | "tags";
+export type SearchType = "all" | "name" | "description" | "category";
 
-export function SearchForm({ onSearch, categories, tags }: SearchFormProps) {
+export function SearchForm({ onSearch, categories }: SearchFormProps) {
   const [filters, setFilters] = useState({
     query: "",
     searchType: "all" as SearchType,
-    category: "all",
-    selectedTags: [] as string[]
+    category: "all"
   });
 
   const formRef = useRef<HTMLDivElement>(null);
@@ -45,21 +43,9 @@ export function SearchForm({ onSearch, categories, tags }: SearchFormProps) {
       onSearch(
         newFilters.query,
         newFilters.searchType,
-        newFilters.category,
-        newFilters.selectedTags
+        newFilters.category
       );
       return newFilters;
-    });
-  }, [onSearch]);
-
-  const toggleTag = useCallback((tag: string) => {
-    setFilters(prev => {
-      const newTags = prev.selectedTags.includes(tag)
-        ? prev.selectedTags.filter(t => t !== tag)
-        : [...prev.selectedTags, tag];
-      
-      onSearch(prev.query, prev.searchType, prev.category, newTags);
-      return { ...prev, selectedTags: newTags };
     });
   }, [onSearch]);
 
@@ -95,7 +81,6 @@ export function SearchForm({ onSearch, categories, tags }: SearchFormProps) {
             <SelectItem value="name" className="text-blue-100">Name</SelectItem>
             <SelectItem value="description" className="text-blue-100">Description</SelectItem>
             <SelectItem value="category" className="text-blue-100">Category</SelectItem>
-            <SelectItem value="tags" className="text-blue-100">Tags</SelectItem>
           </SelectContent>
         </Select>
         <Select
@@ -114,22 +99,6 @@ export function SearchForm({ onSearch, categories, tags }: SearchFormProps) {
             ))}
           </SelectContent>
         </Select>
-      </div>
-      <div className="relative z-10 flex flex-wrap gap-2">
-        {tags.map((tag) => (
-          <Badge
-            key={tag}
-            variant={filters.selectedTags.includes(tag) ? "default" : "outline"}
-            className={`cursor-pointer transition-all duration-300 ${
-              filters.selectedTags.includes(tag)
-                ? 'bg-blue-500/30 text-blue-100 border-blue-400/50 hover:bg-blue-500/40'
-                : 'border-blue-400/20 text-blue-200/70 hover:border-blue-400/50 hover:text-blue-100'
-            }`}
-            onClick={() => toggleTag(tag)}
-          >
-            {tag}
-          </Badge>
-        ))}
       </div>
     </div>
   );

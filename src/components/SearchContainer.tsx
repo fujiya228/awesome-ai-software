@@ -6,7 +6,6 @@ import type { Software } from '../types/software';
 
 interface SearchContainerProps {
   categories: string[];
-  tags: string[];
   software: Software[];
 }
 
@@ -14,27 +13,20 @@ interface SearchState {
   query: string;
   searchType: SearchType;
   category: string;
-  selectedTags: string[];
 }
 
-export function SearchContainer({ categories, tags, software }: SearchContainerProps) {
+export function SearchContainer({ categories, software }: SearchContainerProps) {
   const [searchState, setSearchState] = useState<SearchState>({
     query: '',
     searchType: 'all',
-    category: 'all',
-    selectedTags: []
+    category: 'all'
   });
 
   const filterSoftware = useCallback((software: Software) => {
-    const { query, searchType, category, selectedTags } = searchState;
+    const { query, searchType, category } = searchState;
 
     // Category filter
     if (category !== 'all' && software.category !== category) {
-      return false;
-    }
-
-    // Tag filter
-    if (selectedTags.length > 0 && !selectedTags.every(tag => software.tags.includes(tag))) {
       return false;
     }
 
@@ -48,15 +40,12 @@ export function SearchContainer({ categories, tags, software }: SearchContainerP
           return software.description.toLowerCase().includes(searchText);
         case 'category':
           return software.category.toLowerCase().includes(searchText);
-        case 'tags':
-          return software.tags.some(tag => tag.toLowerCase().includes(searchText));
         case 'all':
         default:
           return (
             software.name.toLowerCase().includes(searchText) ||
             software.description.toLowerCase().includes(searchText) ||
-            software.category.toLowerCase().includes(searchText) ||
-            software.tags.some(tag => tag.toLowerCase().includes(searchText))
+            software.category.toLowerCase().includes(searchText)
           );
       }
     }
@@ -69,15 +58,13 @@ export function SearchContainer({ categories, tags, software }: SearchContainerP
   return (
     <div>
       <div className="mb-8">
-        <SearchForm
-          categories={categories}
-          tags={tags}
-          onSearch={(query, searchType, category, selectedTags) => {
+      <SearchForm
+        categories={categories}
+        onSearch={(query, searchType, category) => {
             setSearchState({
               query,
               searchType,
-              category,
-              selectedTags
+              category
             });
           }}
         />

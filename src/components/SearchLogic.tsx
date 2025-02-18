@@ -6,10 +6,9 @@ interface SearchLogicProps {
   query: string;
   searchType: SearchType;
   category: string;
-  selectedTags: string[];
 }
 
-export function SearchLogic({ query, searchType, category, selectedTags }: SearchLogicProps) {
+export function SearchLogic({ query, searchType, category }: SearchLogicProps) {
   useEffect(() => {
     const applySearch = () => {
       const cards = document.querySelectorAll<HTMLElement>('[data-software-card]');
@@ -29,9 +28,6 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
           }
 
           // Tag filter
-          if (selectedTags.length > 0 && !selectedTags.every(tag => software.tags.includes(tag))) {
-            isMatch = false;
-          }
 
           // Text search
           if (query) {
@@ -44,15 +40,12 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
                   return software.description.toLowerCase().includes(searchText);
                 case 'category':
                   return software.category.toLowerCase().includes(searchText);
-                case 'tags':
-                  return software.tags.some(tag => tag.toLowerCase().includes(searchText));
                 case 'all':
                 default:
                   return (
                     software.name.toLowerCase().includes(searchText) ||
                     software.description.toLowerCase().includes(searchText) ||
-                    software.category.toLowerCase().includes(searchText) ||
-                    software.tags.some(tag => tag.toLowerCase().includes(searchText))
+                    software.category.toLowerCase().includes(searchText)
                   );
               }
             })();
@@ -76,7 +69,6 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
         query,
         searchType,
         category,
-        selectedTags,
         visibleCount,
         totalCards: cards.length
       });
@@ -87,7 +79,7 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
 
     // Re-execute on the next frame to ensure DOM updates are complete
     requestAnimationFrame(applySearch);
-  }, [query, searchType, category, selectedTags]);
+  }, [query, searchType, category]);
 
   return null;
 }

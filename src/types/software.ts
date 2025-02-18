@@ -5,5 +5,4 @@ export interface Software {
   category: string;
   url: string;
   imageUrl?: string;
-  tags: string[];
 }

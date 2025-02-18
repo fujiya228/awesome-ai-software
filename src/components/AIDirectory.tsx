@@ -7,13 +7,11 @@ import { aiSoftware } from '../data/software';
 
 // Get unique list of categories and tags
 const categories = [...new Set(aiSoftware.map(software => software.category))];
-const tags = [...new Set(aiSoftware.flatMap(software => software.tags))];
 
 interface SearchState {
   query: string;
   searchType: SearchType;
   category: string;
-  selectedTags: string[];
 }
 
 export function AIDirectory() {
@@ -21,19 +19,13 @@ export function AIDirectory() {
     query: '',
     searchType: 'all',
     category: 'all',
-    selectedTags: []
   });
 
   const filterSoftware = useCallback((software: Software) => {
-    const { query, searchType, category, selectedTags } = searchState;
+    const { query, searchType, category } = searchState;
 
     // Category filter
     if (category !== 'all' && software.category !== category) {
-      return false;
-    }
-
-    // Tag filter
-    if (selectedTags.length > 0 && !selectedTags.every(tag => software.tags.includes(tag))) {
       return false;
     }
 
@@ -47,15 +39,12 @@ export function AIDirectory() {
           return software.description.toLowerCase().includes(searchText);
         case 'category':
           return software.category.toLowerCase().includes(searchText);
-        case 'tags':
-          return software.tags.some(tag => tag.toLowerCase().includes(searchText));
         case 'all':
         default:
           return (
             software.name.toLowerCase().includes(searchText) ||
             software.description.toLowerCase().includes(searchText) ||
-            software.category.toLowerCase().includes(searchText) ||
-            software.tags.some(tag => tag.toLowerCase().includes(searchText))
+            software.category.toLowerCase().includes(searchText)
           );
       }
     }
@@ -90,13 +79,11 @@ export function AIDirectory() {
       <div className="relative z-10 mb-12 neon-glow animate-float">
         <SearchForm
           categories={categories}
-          tags={tags}
-          onSearch={(query, searchType, category, selectedTags) => {
+          onSearch={(query, searchType, category) => {
             setSearchState({
               query,
               searchType,
               category,
-              selectedTags
             });
           }}
         />

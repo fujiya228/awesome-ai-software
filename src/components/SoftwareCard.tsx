@@ -48,17 +48,6 @@ export function SoftwareCard({ software }: SoftwareCardProps) {
             <p className="mb-4 text-blue-100/80 group-hover:text-blue-100 transition-colors">
               {software.description}
             </p>
-            <div className="flex flex-wrap gap-2">
-              {software.tags.map((tag) => (
-                <Badge 
-                  key={tag} 
-                  variant="secondary" 
-                  className="bg-blue-500/10 text-blue-200 border border-blue-400/20 transition-all duration-300 group-hover:bg-blue-500/20"
-                >
-                  {tag}
-                </Badge>
-              ))}
-            </div>
           </CardContent>
         </Card>
       </div>

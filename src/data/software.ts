@@ -1,13 +1,12 @@
 import type { Software } from "../types/software";
 
-export const originalAiSoftware: Software[] = [
+export const aiSoftware: Software[] = [
     {
         "id": "1",
         "name": "OpenAI API",
         "description": "OpenAI's API provides access to GPT-3 and GPT-4 models, which performs a wide variety of natural language tasks, and Codex, which translates natural language to code.",
         "category": "Models",
         "url": "https://openai.com/api/",
-        "tags": []
     },
     {
         "id": "2",
@@ -15,7 +14,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Gopher by DeepMind is a 280 billion parameter language model.",
         "category": "Models",
         "url": "https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval",
-        "tags": []
     },
     {
         "id": "3",
@@ -23,7 +21,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open Pretrained Transformers (OPT) by Facebook is a suite of decoder-only pre-trained transformers. .  hosted by Alpa.",
         "category": "Models",
         "url": "https://huggingface.co/facebook/opt-350m",
-        "tags": []
     },
     {
         "id": "4",
@@ -31,7 +28,6 @@ export const originalAiSoftware: Software[] = [
         "description": "BLOOM by Hugging Face is a model similar to GPT-3 that has been trained on 46 different languages and 13 programming languages. #opensource",
         "category": "Models",
         "url": "https://huggingface.co/docs/transformers/model_doc/bloom",
-        "tags": []
     },
     {
         "id": "5",
@@ -39,7 +35,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A foundational, 65-billion-parameter large language model by Meta. #opensource",
         "category": "Models",
         "url": "https://ai.facebook.com/blog/large-language-model-llama-meta-ai/",
-        "tags": []
     },
     {
         "id": "6",
@@ -47,7 +42,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The next generation of Meta's open source large language model. #opensource",
         "category": "Models",
         "url": "https://ai.meta.com/llama/",
-        "tags": []
     },
     {
         "id": "7",
@@ -55,7 +49,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Talk to Claude, an AI assistant from Anthropic.",
         "category": "Models",
         "url": "https://claude.ai/",
-        "tags": []
     },
     {
         "id": "8",
@@ -63,7 +56,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.",
         "category": "Models",
         "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
-        "tags": []
     },
     {
         "id": "9",
@@ -71,7 +63,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A finetuned LLamma 65B model",
         "category": "Models",
         "url": "https://huggingface.co/stabilityai/StableBeluga1-Delta",
-        "tags": []
     },
     {
         "id": "10",
@@ -79,7 +70,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A finetuned LLamma2 70B model",
         "category": "Models",
         "url": "https://huggingface.co/stabilityai/StableBeluga2",
-        "tags": []
     },
     {
         "id": "11",
@@ -87,7 +77,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Advancing cost-efficient intelligence",
         "category": "Models",
         "url": "https://altern.ai/ai/gpt-4o-mini",
-        "tags": []
     },
     {
         "id": "12",
@@ -95,7 +84,6 @@ export const originalAiSoftware: Software[] = [
         "description": "ChatGPT by OpenAI is a large language model that interacts in a conversational way.",
         "category": "Chatbots",
         "url": "https://chatgpt.com",
-        "tags": []
     },
     {
         "id": "13",
@@ -103,7 +91,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A conversational AI language model powered by Microsoft Bing.",
         "category": "Chatbots",
         "url": "https://www.bing.com/chat",
-        "tags": []
     },
     {
         "id": "14",
@@ -111,7 +98,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An experimental AI chatbot by Google, powered by the LaMDA model.",
         "category": "Chatbots",
         "url": "https://gemini.google.com",
-        "tags": []
     },
     {
         "id": "15",
@@ -119,7 +105,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Character.AI lets you create characters and chat to them.",
         "category": "Chatbots",
         "url": "https://character.ai/",
-        "tags": []
     },
     {
         "id": "16",
@@ -127,7 +112,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Chat with any PDF.",
         "category": "Chatbots",
         "url": "https://www.chatpdf.com/",
-        "tags": []
     },
     {
         "id": "17",
@@ -135,7 +119,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI-powered assistant that enables text and image creation.",
         "category": "Chatbots",
         "url": "https://writesonic.com/chat",
-        "tags": []
     },
     {
         "id": "18",
@@ -143,7 +126,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Phind is an intelligent search engine and assistant for programmers. Phind is smart enough to proactively ask you questions to clarify its assumptions and to browse the web (or your codebase) when it needs additional context. With our new VS Code extension.",
         "category": "Chatbots",
         "url": "https://www.phind.com/",
-        "tags": []
     },
     {
         "id": "19",
@@ -151,7 +133,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open-source LLM-enabled no-code chatbot development framework. Design, test and launch your flows on all your channels in minutes.",
         "category": "Chatbots",
         "url": "https://tiledesk.com/",
-        "tags": []
     },
     {
         "id": "20",
@@ -159,7 +140,6 @@ export const originalAiSoftware: Software[] = [
         "description": "ChatGPT for Teams",
         "category": "Chatbots",
         "url": "https://aicamp.so/",
-        "tags": []
     },
     {
         "id": "21",
@@ -167,7 +147,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A search engine designed to search AI-generated images. ",
         "category": "Search engines",
         "url": "https://kazimir.ai/",
-        "tags": []
     },
     {
         "id": "22",
@@ -175,7 +154,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI powered search tools.",
         "category": "Search engines",
         "url": "https://www.perplexity.ai/",
-        "tags": []
     },
     {
         "id": "23",
@@ -183,7 +161,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Language model powered search.",
         "category": "Search engines",
         "url": "https://metaphor.systems/",
-        "tags": []
     },
     {
         "id": "24",
@@ -191,7 +168,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based search engine.",
         "category": "Search engines",
         "url": "https://phind.com/",
-        "tags": []
     },
     {
         "id": "25",
@@ -199,7 +175,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A search engine built on AI that provides users with a customized search experience while keeping their data 100% private.",
         "category": "Search engines",
         "url": "https://you.com/",
-        "tags": []
     },
     {
         "id": "26",
@@ -207,7 +182,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI based Search engine which responses quick and short answers.",
         "category": "Search engines",
         "url": "https://komo.ai/",
-        "tags": []
     },
     {
         "id": "27",
@@ -215,7 +189,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI for Climate Research, with data exclusively from governments, international institutions and companies.",
         "category": "Search engines",
         "url": "https://telborg.com/",
-        "tags": []
     },
     {
         "id": "28",
@@ -223,7 +196,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs",
         "category": "Search engines",
         "url": "https://github.com/memfreeme/memfree",
-        "tags": []
     },
     {
         "id": "29",
@@ -231,7 +203,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Ask questions to your documents without an internet connection, using the power of LLMs.",
         "category": "Local search engines",
         "url": "https://github.com/imartinez/privateGPT",
-        "tags": []
     },
     {
         "id": "30",
@@ -239,7 +210,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Dump all your files and chat with it using your generative AI second brain using LLMs & embeddings.",
         "category": "Local search engines",
         "url": "https://github.com/StanGirard/quivr",
-        "tags": []
     },
     {
         "id": "31",
@@ -247,7 +217,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create content faster with artificial intelligence.",
         "category": "Writing assistants",
         "url": "https://www.jasper.ai/",
-        "tags": []
     },
     {
         "id": "32",
@@ -255,7 +224,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Compose AI is a free Chrome extension that cuts your writing time by 40% with AI-powered autocompletion.",
         "category": "Writing assistants",
         "url": "https://www.compose.ai/",
-        "tags": []
     },
     {
         "id": "33",
@@ -263,7 +231,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Rytr is an AI writing assistant that helps you create high-quality content.",
         "category": "Writing assistants",
         "url": "https://rytr.me/",
-        "tags": []
     },
     {
         "id": "34",
@@ -271,7 +238,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Personal writing assistant.",
         "category": "Writing assistants",
         "url": "https://www.wordtune.com/",
-        "tags": []
     },
     {
         "id": "35",
@@ -279,7 +245,6 @@ export const originalAiSoftware: Software[] = [
         "description": "HyperWrite helps you write with confidence and get your work done faster from idea to final draft.",
         "category": "Writing assistants",
         "url": "https://hyperwriteai.com/",
-        "tags": []
     },
     {
         "id": "36",
@@ -287,7 +252,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Nexus AI is a generative cutting-edge AI Platform for writing, coding, voiceovers, research, image creation and beyond.",
         "category": "Writing assistants",
         "url": "https://mynexusai.com/",
-        "tags": []
     },
     {
         "id": "37",
@@ -295,7 +259,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Better blogs in a fraction of the time.",
         "category": "Writing assistants",
         "url": "https://www.gomoonbeam.com/",
-        "tags": []
     },
     {
         "id": "38",
@@ -303,7 +266,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Write better marketing copy and content with AI.",
         "category": "Writing assistants",
         "url": "https://www.copy.ai/",
-        "tags": []
     },
     {
         "id": "39",
@@ -311,7 +273,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Anyword's AI writing assistant generates effective copy for anyone.",
         "category": "Writing assistants",
         "url": "https://anyword.com/",
-        "tags": []
     },
     {
         "id": "40",
@@ -319,7 +280,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create the content your audience wants, from content you've already made.",
         "category": "Writing assistants",
         "url": "https://contenda.co/",
-        "tags": []
     },
     {
         "id": "41",
@@ -327,7 +287,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Turn a few keywords into original, insightful articles, product descriptions and social media copy.",
         "category": "Writing assistants",
         "url": "https://www.hypotenuse.ai/",
-        "tags": []
     },
     {
         "id": "42",
@@ -335,7 +294,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Lavender email assistant helps you get more replies in less time.",
         "category": "Writing assistants",
         "url": "https://www.lavender.ai/",
-        "tags": []
     },
     {
         "id": "43",
@@ -343,7 +301,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A word processor with artificial intelligence baked in, so you can write faster.",
         "category": "Writing assistants",
         "url": "https://lex.page/",
-        "tags": []
     },
     {
         "id": "44",
@@ -351,7 +308,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Jenni is the ultimate writing assistant that saves you hours of ideation and writing time.",
         "category": "Writing assistants",
         "url": "https://jenni.ai/",
-        "tags": []
     },
     {
         "id": "45",
@@ -359,7 +315,6 @@ export const originalAiSoftware: Software[] = [
         "description": "LAIKA trains an artificial intelligence on your own writing to create a personalised creative partner-in-crime.",
         "category": "Writing assistants",
         "url": "https://www.writewithlaika.com/",
-        "tags": []
     },
     {
         "id": "46",
@@ -367,7 +322,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered paraphrasing tool.",
         "category": "Writing assistants",
         "url": "https://quillbot.com",
-        "tags": []
     },
     {
         "id": "47",
@@ -375,7 +329,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Write tweets, schedule posts and grow your following using AI.",
         "category": "Writing assistants",
         "url": "https://postwise.ai/",
-        "tags": []
     },
     {
         "id": "48",
@@ -383,7 +336,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI content creation solution for Enterprise & eCommerce.",
         "category": "Writing assistants",
         "url": "https://copysmith.ai/",
-        "tags": []
     },
     {
         "id": "49",
@@ -391,7 +343,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI writing assistant for students and academics.",
         "category": "Writing assistants",
         "url": "https://www.yomu.ai",
-        "tags": []
     },
     {
         "id": "50",
@@ -399,7 +350,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Free and fully configurable real estate listing description generator.",
         "category": "Writing assistants",
         "url": "https://listomatic.app",
-        "tags": []
     },
     {
         "id": "51",
@@ -407,7 +357,6 @@ export const originalAiSoftware: Software[] = [
         "description": "SEO-Optimized Blog platform powered by AI.",
         "category": "Writing assistants",
         "url": "https://quickcreator.io",
-        "tags": []
     },
     {
         "id": "52",
@@ -415,7 +364,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Fix your hero copy with an AI trained on top SaaS websites.",
         "category": "Writing assistants",
         "url": "https://dittto.ai",
-        "tags": []
     },
     {
         "id": "53",
@@ -423,7 +371,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI writer that Auto Publishes to your own website",
         "category": "Writing assistants",
         "url": "https://pulsepost.io/",
-        "tags": []
     },
     {
         "id": "54",
@@ -431,7 +378,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A modern AI-assisted writing environment for all types of prose. ",
         "category": "Writing assistants",
         "url": "https://www.shyeditor.com",
-        "tags": []
     },
     {
         "id": "55",
@@ -439,7 +385,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI writing tool that improves written communication.",
         "category": "Writing assistants",
         "url": "https://www.deepl.com/write",
-        "tags": []
     },
     {
         "id": "56",
@@ -447,7 +392,6 @@ export const originalAiSoftware: Software[] = [
         "description": "ChatGPT-powered free Summarizer for Websites, YouTube and PDF.",
         "category": "ChatGPT extensions",
         "url": "https://www.gistai.tech?utm_source=tool_directory&utm_medium=post&utm_campaign=launch",
-        "tags": []
     },
     {
         "id": "57",
@@ -455,7 +399,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Augment your ChatGPT prompts with relevant results from the web.",
         "category": "ChatGPT extensions",
         "url": "https://chrome.google.com/webstore/detail/webchatgpt-chatgpt-with-i/lpfemeioodjbpieminkklglpmhlngfcn",
-        "tags": []
     },
     {
         "id": "58",
@@ -463,7 +406,6 @@ export const originalAiSoftware: Software[] = [
         "description": "ChatGPT extension for Google Sheets and Google Docs.",
         "category": "ChatGPT extensions",
         "url": "https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054654",
-        "tags": []
     },
     {
         "id": "59",
@@ -471,7 +413,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Use ChatGPT to summarize YouTube videos.",
         "category": "ChatGPT extensions",
         "url": "https://chrome.google.com/webstore/detail/youtube-summary-with-chat/nmmicjeknamkfloonkhhcjmomieiodli",
-        "tags": []
     },
     {
         "id": "60",
@@ -479,7 +420,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Discover, share, import, and use the best prompts for ChatGPT & save your chat history locally.",
         "category": "ChatGPT extensions",
         "url": "https://chrome.google.com/webstore/detail/chatgpt-prompt-genius/jjdnakkfjnnbbckhifcfchagnpofjffo",
-        "tags": []
     },
     {
         "id": "61",
@@ -487,7 +427,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Display ChatGPT response alongside Google, Bing, and DuckDuckGo search results.",
         "category": "ChatGPT extensions",
         "url": "https://chrome.google.com/webstore/detail/chatgpt-for-search-engine/feeonheemodpkdckaljcjogdncpiiban",
-        "tags": []
     },
     {
         "id": "62",
@@ -495,7 +434,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Share your ChatGPT conversations and explore conversations shared by others.",
         "category": "ChatGPT extensions",
         "url": "https://sharegpt.com/",
-        "tags": []
     },
     {
         "id": "63",
@@ -503,7 +441,6 @@ export const originalAiSoftware: Software[] = [
         "description": "ChatGPT Plus extension on all websites.",
         "category": "ChatGPT extensions",
         "url": "https://merlin.foyer.work/",
-        "tags": []
     },
     {
         "id": "64",
@@ -511,7 +448,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate entire emails and messages using ChatGPT AI.",
         "category": "ChatGPT extensions",
         "url": "https://chatgptwriter.ai/",
-        "tags": []
     },
     {
         "id": "65",
@@ -519,7 +455,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Add various helper functions in Jupyter Notebooks and Jupyter Lab, powered by ChatGPT.",
         "category": "ChatGPT extensions",
         "url": "https://github.com/TiesdeKok/chat-gpt-jupyter-extension",
-        "tags": []
     },
     {
         "id": "66",
@@ -527,7 +462,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Easily proofread, edit, and track changes to your content in chatGPT.",
         "category": "ChatGPT extensions",
         "url": "https://www.editgpt.app/",
-        "tags": []
     },
     {
         "id": "67",
@@ -535,7 +469,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An open source ChatGPT UI. .",
         "category": "ChatGPT extensions",
         "url": "https://www.chatbotui.com/",
-        "tags": []
     },
     {
         "id": "68",
@@ -543,7 +476,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A Better ChatGPT Experience.",
         "category": "ChatGPT extensions",
         "url": "https://www.forefront.ai/",
-        "tags": []
     },
     {
         "id": "69",
@@ -551,7 +483,6 @@ export const originalAiSoftware: Software[] = [
         "description": "One click to curate AI chatbot, including ChatGPT, Google Bard to improve AI responses.",
         "category": "ChatGPT extensions",
         "url": "https://chromewebstore.google.com/detail/ai-character-for-gpt/daoeioifimkjegafelcaljboknjkkohh",
-        "tags": []
     },
     {
         "id": "70",
@@ -559,7 +490,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Mem is the world's first AI-powered workspace that's personalized to you. Amplify your creativity, automate the mundane, and stay organized automatically.",
         "category": "Productivity",
         "url": "https://mem.ai/",
-        "tags": []
     },
     {
         "id": "71",
@@ -567,7 +497,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Build, train, and deploy autonomous AI agents for task management, team collaboration, and workflow automation—all within a unified workspace.",
         "category": "Productivity",
         "url": "https://www.taskade.com/",
-        "tags": []
     },
     {
         "id": "72",
@@ -575,7 +504,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Write better, more efficient notes and docs.",
         "category": "Productivity",
         "url": "https://www.notion.so/product/ai",
-        "tags": []
     },
     {
         "id": "73",
@@ -583,7 +511,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Automate your workflows with AI. Describe your workflows step by step in plain language.",
         "category": "Productivity",
         "url": "https://nekton.ai",
-        "tags": []
     },
     {
         "id": "74",
@@ -591,7 +518,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Personal AI writing assistant for the Mac.",
         "category": "Productivity",
         "url": "https://elephas.app/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "75",
@@ -599,7 +525,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Autonomous AI Assistant for Work.",
         "category": "Productivity",
         "url": "https://lemmy.co/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "76",
@@ -607,7 +532,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Forget about frustrating formulas in Google Sheets.",
         "category": "Productivity",
         "url": "https://bettersheets.co/google-sheets-formula-generator?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "77",
@@ -615,7 +539,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Free speech-to-text tool for content creators that accurately transcribes audio & video files up to 2GB.",
         "category": "Productivity",
         "url": "https://createeasily.com/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "78",
@@ -623,7 +546,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The most advanced AI document assistant",
         "category": "Productivity",
         "url": "https://aipdf.ai",
-        "tags": []
     },
     {
         "id": "79",
@@ -631,7 +553,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Summarize any long PDF with AI. Comprehensive summaries using information from all pages of a document.",
         "category": "Productivity",
         "url": "https://www.summarywithai.com/",
-        "tags": []
     },
     {
         "id": "80",
@@ -639,7 +560,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Stop drowning in emails - Emilio prioritizes and automates your email, saving 60% of your time",
         "category": "Productivity",
         "url": "https://getemil.io?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "81",
@@ -647,7 +567,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-enabled productivity tool designed to supercharge developer efficiency,with an on-device copilot that helps capture, enrich, and reuse useful materials, streamline collaboration, and solve complex problems through a contextual understanding of dev workflow",
         "category": "Productivity",
         "url": "https://pieces.app/",
-        "tags": []
     },
     {
         "id": "82",
@@ -655,7 +574,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Craft the perfect resume, with a little help from AI. Huntr’s customizable AI Resume Builder will help you craft a well-written, ATS-friendly resume to help you land more interviews.",
         "category": "Productivity",
         "url": "https://huntr.co/product/ai-resume-builder/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "83",
@@ -663,7 +581,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI app that enables dialogue with PDF documents, supporting interactions with multiple files simultaneously through language models.",
         "category": "Productivity",
         "url": "https://copilot.us/apps/chat-with-pdf",
-        "tags": []
     },
     {
         "id": "84",
@@ -671,7 +588,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Summarize Anything, Forget Nothing",
         "category": "Productivity",
         "url": "https://www.getrecall.ai/",
-        "tags": []
     },
     {
         "id": "85",
@@ -679,7 +595,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An Al interviewer that conducts live, conversational interviews and gives real-time evaluations to effortlessly identify top performers and scale your recruitment process. ",
         "category": "Productivity",
         "url": "https://interview.talently.ai/?utm_source=mahseema-awesome-ai-tool&utm_medium=c_and_p&utm_campaign=tool-listing",
-        "tags": []
     },
     {
         "id": "86",
@@ -687,7 +602,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Automate any boring and repetitive task, without having to learn a new tool",
         "category": "Productivity",
         "url": "https://wwww.tailortask.ai",
-        "tags": []
     },
     {
         "id": "87",
@@ -695,7 +609,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create Flashcards 10x faster. Generate Anki Flashcards from any File or Text with AI.",
         "category": "Productivity",
         "url": "https://anki-decks.com",
-        "tags": []
     },
     {
         "id": "88",
@@ -703,7 +616,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI presentation maker for Google Slides",
         "category": "Productivity",
         "url": "https://www.aiforgoogleslides.com/",
-        "tags": []
     },
     {
         "id": "89",
@@ -711,7 +623,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered Compliance Software for U.S. Government Contractors",
         "category": "Productivity",
         "url": "https://far.site/",
-        "tags": []
     },
     {
         "id": "90",
@@ -719,7 +630,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Free AI Price Tracker - Track any price of any product at any store using AI",
         "category": "Productivity",
         "url": "https://gosh.app",
-        "tags": []
     },
     {
         "id": "91",
@@ -727,7 +637,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Minimal AI-Driven Pomodoro Timer App",
         "category": "Productivity",
         "url": "https://pomodoro.tools",
-        "tags": []
     },
     {
         "id": "92",
@@ -735,7 +644,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Multi-agent & multi-LLM native client where AIs can remember, react to events, use tools, leverage local and external resources, and work together autonomously.",
         "category": "Productivity",
         "url": "https://www.nurgo-software.com/products/brainsoup",
-        "tags": []
     },
     {
         "id": "93",
@@ -743,7 +651,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Build your AI Second Brain with a team of AI agents and multi-agent workflow",
         "category": "Productivity",
         "url": "https://mindpal.space/",
-        "tags": []
     },
     {
         "id": "94",
@@ -751,7 +658,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.",
         "category": "Meeting assistants",
         "url": "https://otter.ai/",
-        "tags": []
     },
     {
         "id": "95",
@@ -759,7 +665,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Cogram takes automatic notes in virtual meetings and identifies action items.",
         "category": "Meeting assistants",
         "url": "https://www.cogram.com/",
-        "tags": []
     },
     {
         "id": "96",
@@ -767,7 +672,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Sybill generates summaries of sales calls, including next steps, pain points and areas of interest, by combining transcript and emotion-based insights.",
         "category": "Meeting assistants",
         "url": "https://www.sybill.ai/",
-        "tags": []
     },
     {
         "id": "97",
@@ -775,7 +679,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Loopin is a collaborative meeting workspace that not only enables you to record, transcribe & summaries meetings using AI, but also enables you to auto-organise meeting notes on top of your calendar.",
         "category": "Meeting assistants",
         "url": "https://www.loopinhq.com/",
-        "tags": []
     },
     {
         "id": "98",
@@ -783,7 +686,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Elicit uses language models to help you automate research workflows, like parts of literature review.",
         "category": "Academia",
         "url": "https://elicit.org/",
-        "tags": []
     },
     {
         "id": "99",
@@ -791,7 +693,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Summarise academic articles in seconds and save 80% on your research times.",
         "category": "Academia",
         "url": "https://www.genei.io/",
-        "tags": []
     },
     {
         "id": "100",
@@ -799,7 +700,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A better way to read academic papers. Upload a paper, highlight confusing text, get an explanation.",
         "category": "Academia",
         "url": "https://www.explainpaper.com/",
-        "tags": []
     },
     {
         "id": "101",
@@ -807,7 +707,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A large language model for science. Can summarize academic literature, solve math problems, generate Wiki articles, write scientific code, annotate molecules and proteins, and more. .",
         "category": "Academia",
         "url": "https://galactica.org/",
-        "tags": []
     },
     {
         "id": "102",
@@ -815,7 +714,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Consensus is a search engine that uses AI to find answers in scientific research.",
         "category": "Academia",
         "url": "https://consensus.app/search/",
-        "tags": []
     },
     {
         "id": "103",
@@ -823,7 +721,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Academic Citation Finding Tool with AI",
         "category": "Academia",
         "url": "https://www.sourcely.net/",
-        "tags": []
     },
     {
         "id": "104",
@@ -831,7 +728,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Chat for scientific PDFs.",
         "category": "Academia",
         "url": "https://scispace.com/",
-        "tags": []
     },
     {
         "id": "105",
@@ -839,7 +735,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Make AI your expert customer support agent.",
         "category": "Customer Support",
         "url": "https://sitegpt.ai/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "106",
@@ -847,7 +742,6 @@ export const originalAiSoftware: Software[] = [
         "description": "ChatGPT for your website / AI customer support chatbot.",
         "category": "Customer Support",
         "url": "https://gpthelp.ai/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "107",
@@ -855,7 +749,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Automate your customer support with AI.",
         "category": "Customer Support",
         "url": "https://sitespeak.ai",
-        "tags": []
     },
     {
         "id": "108",
@@ -863,7 +756,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Supercharge Customer Services and boost sales with AI Chatbot.",
         "category": "Customer Support",
         "url": "https://www.dearai.online",
-        "tags": []
     },
     {
         "id": "109",
@@ -871,7 +763,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Answer customer questions before they ask",
         "category": "Customer Support",
         "url": "https://inlinehelp.com",
-        "tags": []
     },
     {
         "id": "110",
@@ -879,7 +770,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-Powered Support for your SaaS startup.",
         "category": "Customer Support",
         "url": "https://www.aidbase.ai",
-        "tags": []
     },
     {
         "id": "111",
@@ -887,7 +777,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered conversational marketing platform that automates customer communication through chatbots and real-time engagement.",
         "category": "Customer Support",
         "url": "https://www.drift.com/",
-        "tags": []
     },
     {
         "id": "112",
@@ -895,7 +784,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-enhanced customer messaging platform that provides real-time support and personalized interactions.",
         "category": "Customer Support",
         "url": "https://www.intercom.com/",
-        "tags": []
     },
     {
         "id": "113",
@@ -903,7 +791,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI chatbot platform that automates customer support and engagement through live chat and chatbots.",
         "category": "Customer Support",
         "url": "https://www.tidio.com/",
-        "tags": []
     },
     {
         "id": "114",
@@ -911,7 +798,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Use AI to automatically draft email replies in the background.",
         "category": "Other text generators",
         "url": "https://www.emailtriager.com/",
-        "tags": []
     },
     {
         "id": "115",
@@ -919,7 +805,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Poem Generator writes a beautiful rhyming poem for you on any subject, given a text prompt.",
         "category": "Other text generators",
         "url": "https://www.aipoemgenerator.org",
-        "tags": []
     },
     {
         "id": "116",
@@ -927,7 +812,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Maximize Your Interview Chances with AI-Powered LinkedIn Messaging.",
         "category": "Other text generators",
         "url": "https://neverjobless.com/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "117",
@@ -935,7 +819,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Load and run large LLMs locally to use in your terminal or build your apps.",
         "category": "Developer tools",
         "url": "https://ollama.com/",
-        "tags": []
     },
     {
         "id": "118",
@@ -943,7 +826,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Cohere provides access to advanced Large Language Models and NLP tools.",
         "category": "Developer tools",
         "url": "https://cohere.ai/",
-        "tags": []
     },
     {
         "id": "119",
@@ -951,7 +833,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A framework for building NLP applications (e.g. agents, semantic search, question-answering) with language models.",
         "category": "Developer tools",
         "url": "https://haystack.deepset.ai/",
-        "tags": []
     },
     {
         "id": "120",
@@ -959,7 +840,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open source Tool for converting user traffic to Test Cases and Data Stubs.",
         "category": "Developer tools",
         "url": "https://keploy.io/",
-        "tags": []
     },
     {
         "id": "121",
@@ -967,7 +847,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A framework for developing applications powered by language models.",
         "category": "Developer tools",
         "url": "https://langchain.com/",
-        "tags": []
     },
     {
         "id": "122",
@@ -975,7 +854,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A chatbot trained on a massive collection of clean assistant data including code, stories, and dialogue.",
         "category": "Developer tools",
         "url": "https://github.com/nomic-ai/gpt4all",
-        "tags": []
     },
     {
         "id": "123",
@@ -983,7 +861,6 @@ export const originalAiSoftware: Software[] = [
         "description": "LMQL is a query language for large language models.",
         "category": "Developer tools",
         "url": "https://lmql.ai/",
-        "tags": []
     },
     {
         "id": "124",
@@ -991,7 +868,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A data framework for building LLM applications over external data.",
         "category": "Developer tools",
         "url": "https://www.llamaindex.ai/",
-        "tags": []
     },
     {
         "id": "125",
@@ -999,7 +875,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open-source LLM engineering platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. ",
         "category": "Developer tools",
         "url": "https://langfuse.com/",
-        "tags": []
     },
     {
         "id": "126",
@@ -1007,7 +882,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open-source tool for ML observability that runs in your notebook environment, by Arize. Monitor and fine-tune LLM, CV, and tabular models.",
         "category": "Developer tools",
         "url": "https://phoenix.arize.com/",
-        "tags": []
     },
     {
         "id": "127",
@@ -1015,7 +889,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Seamlessly integrate private, controlled, and compliant Large Language Models (LLM) functionality.",
         "category": "Developer tools",
         "url": "https://www.predictionguard.com/",
-        "tags": []
     },
     {
         "id": "128",
@@ -1023,7 +896,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Full-stack LLMOps platform to monitor, manage, and improve LLM-based apps.",
         "category": "Developer tools",
         "url": "https://portkey.ai/",
-        "tags": []
     },
     {
         "id": "129",
@@ -1031,7 +903,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Free tool that tracks API uptime and latencies for various OpenAI models and other LLM providers.",
         "category": "Developer tools",
         "url": "https://status.portkey.ai/",
-        "tags": []
     },
     {
         "id": "130",
@@ -1039,7 +910,6 @@ export const originalAiSoftware: Software[] = [
         "description": "CLI allowing you to interact with AWS Cloud using human language inside your Terminal.",
         "category": "Developer tools",
         "url": "https://chatwithcloud.ai/",
-        "tags": []
     },
     {
         "id": "131",
@@ -1047,7 +917,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered backend platform with Vector DB, DocumentDB, Auth, and more to speed up app development.",
         "category": "Developer tools",
         "url": "https://singlebase.cloud",
-        "tags": []
     },
     {
         "id": "132",
@@ -1055,7 +924,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A generative AI evaluation and observability platform, empowering modern AI teams to ship products with quality, reliability, and speed.",
         "category": "Developer tools",
         "url": "https://www.getmaxim.ai/",
-        "tags": []
     },
     {
         "id": "133",
@@ -1063,7 +931,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A web-hosted IDE where non-technical domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new programming language rather than low/no-code blocks.",
         "category": "Developer tools",
         "url": "https://www.wordware.ai",
-        "tags": []
     },
     {
         "id": "134",
@@ -1071,7 +938,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI-powered code review tool that helps developers improve code quality and productivity.",
         "category": "Developer tools",
         "url": "https://coderabbit.ai/",
-        "tags": []
     },
     {
         "id": "135",
@@ -1079,7 +945,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Your Operations Co-pilot on Slack/Teams. It assists and prompts oncall with relevant information to debug issues.  ",
         "category": "Developer tools",
         "url": "https://www.pagerly.io",
-        "tags": []
     },
     {
         "id": "136",
@@ -1087,7 +952,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A Open-source No-Code tool to build your AI Chatbot / Agent (multi-lingual, multi-channel, LLM, NLU, + ability to develop custom extensions)",
         "category": "Developer tools",
         "url": "https://hexabot.ai",
-        "tags": []
     },
     {
         "id": "137",
@@ -1095,7 +959,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open source, terminal-based AI programming engine for complex tasks.",
         "category": "Developer tools",
         "url": "https://github.com/plandex-ai/plandex",
-        "tags": []
     },
     {
         "id": "138",
@@ -1103,7 +966,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI/ML API gives developers access to 100+ AI models with one API.",
         "category": "Developer tools",
         "url": "https://aimlapi.com/?utm_source=github+of+altern.ai",
-        "tags": []
     },
     {
         "id": "139",
@@ -1111,7 +973,6 @@ export const originalAiSoftware: Software[] = [
         "description": "GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.",
         "category": "Code",
         "url": "https://github.com/features/copilot",
-        "tags": []
     },
     {
         "id": "140",
@@ -1119,7 +980,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI system by OpenAI that translates natural language to code.",
         "category": "Code",
         "url": "https://platform.openai.com/docs/guides/code/",
-        "tags": []
     },
     {
         "id": "141",
@@ -1127,7 +987,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI-powered pair programmer by Replit.",
         "category": "Code",
         "url": "https://blog.replit.com/ai",
-        "tags": []
     },
     {
         "id": "142",
@@ -1135,7 +994,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Build applications faster with the ML-powered coding companion.",
         "category": "Code",
         "url": "https://aws.amazon.com/codewhisperer/",
-        "tags": []
     },
     {
         "id": "143",
@@ -1143,7 +1001,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Code faster with whole-line & full-function code completions.",
         "category": "Code",
         "url": "https://www.tabnine.com/",
-        "tags": []
     },
     {
         "id": "144",
@@ -1151,7 +1008,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Automatic code documentation.",
         "category": "Code",
         "url": "https://stenography.dev/",
-        "tags": []
     },
     {
         "id": "145",
@@ -1159,7 +1015,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI powered documentation writer.",
         "category": "Code",
         "url": "https://mintlify.com/",
-        "tags": []
     },
     {
         "id": "146",
@@ -1167,7 +1022,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered low-code tool for web apps.",
         "category": "Code",
         "url": "https://debuild.app/",
-        "tags": []
     },
     {
         "id": "147",
@@ -1175,7 +1029,6 @@ export const originalAiSoftware: Software[] = [
         "description": "With AI2sql, engineers and non-engineers can easily write efficient, error-free SQL queries without knowing SQL.",
         "category": "Code",
         "url": "https://www.ai2sql.io/",
-        "tags": []
     },
     {
         "id": "148",
@@ -1183,7 +1036,6 @@ export const originalAiSoftware: Software[] = [
         "description": "With CodiumAI, you get non-trivial tests suggested right inside your IDE, so you stay confident when you push.",
         "category": "Code",
         "url": "https://www.codium.ai/",
-        "tags": []
     },
     {
         "id": "149",
@@ -1191,7 +1043,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered tool for automated PR analysis, feedback, suggestions, and more.",
         "category": "Code",
         "url": "https://github.com/Codium-ai/pr-agent",
-        "tags": []
     },
     {
         "id": "150",
@@ -1199,7 +1050,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Accelerated Software Development.",
         "category": "Code",
         "url": "https://mutable.ai/",
-        "tags": []
     },
     {
         "id": "151",
@@ -1207,7 +1057,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A self-hosted copilot clone that uses the library behind llama.cpp to run the 6 billion parameter Salesforce Codegen model in 4 GB of RAM.",
         "category": "Code",
         "url": "https://github.com/ravenscroftj/turbopilot",
-        "tags": []
     },
     {
         "id": "152",
@@ -1215,7 +1064,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An open-source implementation of OpenAI's ChatGPT Code interpreter.",
         "category": "Code",
         "url": "https://github.com/ricklamers/gpt-code-ui",
-        "tags": []
     },
     {
         "id": "153",
@@ -1223,7 +1071,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The Multi-Agent Framework: Given one line Requirement, return PRD, Design, Tasks, Repo",
         "category": "Code",
         "url": "https://github.com/geekan/MetaGPT",
-        "tags": []
     },
     {
         "id": "154",
@@ -1231,7 +1078,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate a SaaS boilerplate from a prompt.",
         "category": "Code",
         "url": "https://marblism.com",
-        "tags": []
     },
     {
         "id": "155",
@@ -1239,7 +1085,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Accelerate developer productivity and code security with our open-source AI.",
         "category": "Code",
         "url": "https://github.com/codeintegrity-ai/mutahunter",
-        "tags": []
     },
     {
         "id": "156",
@@ -1247,7 +1092,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Explore the Linux kernel source code with AI-generated summaries.",
         "category": "Code",
         "url": "https://github.com/mathiscode/ai-kernel-explorer",
-        "tags": []
     },
     {
         "id": "157",
@@ -1255,7 +1099,6 @@ export const originalAiSoftware: Software[] = [
         "description": "SQL/NoSQL/Graph/Cache/Object data explorer with AI-powered chat + other useful features",
         "category": "Code",
         "url": "https://github.com/clidey/whodb",
-        "tags": []
     },
     {
         "id": "158",
@@ -1263,7 +1106,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generates realistic images from text descriptions using deep learning models.",
         "category": "Image Generation",
         "url": "https://openai.com/dall-e/",
-        "tags": []
     },
     {
         "id": "159",
@@ -1271,7 +1113,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tool for creating and blending artworks, portraits, and landscapes through generative adversarial networks.",
         "category": "Image Generation",
         "url": "https://www.artbreeder.com/",
-        "tags": []
     },
     {
         "id": "160",
@@ -1279,7 +1120,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A creative toolkit that enables artists to generate images, videos, and models using AI.",
         "category": "Image Generation",
         "url": "https://runwayml.com/",
-        "tags": []
     },
     {
         "id": "161",
@@ -1287,7 +1127,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-driven tool that transforms photos into artworks by mimicking the style of famous artists.",
         "category": "Image Editing",
         "url": "https://deepart.io/",
-        "tags": []
     },
     {
         "id": "162",
@@ -1295,7 +1134,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based tool to upscale images without losing quality, using neural networks for image enhancement.",
         "category": "Image Editing",
         "url": "https://letsenhance.io/",
-        "tags": []
     },
     {
         "id": "163",
@@ -1303,7 +1141,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tool for automatic background removal from images.",
         "category": "Image Editing",
         "url": "https://www.remove.bg/",
-        "tags": []
     },
     {
         "id": "164",
@@ -1311,7 +1148,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered platform for image and video recognition, offering custom models for visual recognition tasks.",
         "category": "Image Recognition",
         "url": "https://www.clarifai.com/",
-        "tags": []
     },
     {
         "id": "165",
@@ -1319,7 +1155,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Machine learning-based image analysis tool that recognizes objects, text, and landmarks in images.",
         "category": "Image Recognition",
         "url": "https://cloud.google.com/vision",
-        "tags": []
     },
     {
         "id": "166",
@@ -1327,7 +1162,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Deep learning service that detects objects, text, and activities in images and videos.",
         "category": "Image Recognition",
         "url": "https://aws.amazon.com/rekognition/",
-        "tags": []
     },
     {
         "id": "167",
@@ -1335,7 +1169,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered image upscaling tool that increases image resolution without losing details.",
         "category": "Image Enhancement",
         "url": "https://www.topazlabs.com/gigapixel-ai",
-        "tags": []
     },
     {
         "id": "168",
@@ -1343,7 +1176,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based tool for enhancing image quality, improving details, and reducing noise in images.",
         "category": "Image Enhancement",
         "url": "https://vanceai.com/",
-        "tags": []
     },
     {
         "id": "169",
@@ -1351,7 +1183,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based image compression tool that reduces image file sizes while maintaining high quality.",
         "category": "Image Compression",
         "url": "https://tinypng.com/",
-        "tags": []
     },
     {
         "id": "170",
@@ -1359,7 +1190,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Open-source image compression tool powered by AI that reduces image size without losing visible quality.",
         "category": "Image Compression",
         "url": "https://squoosh.app/",
-        "tags": []
     },
     {
         "id": "171",
@@ -1367,7 +1197,6 @@ export const originalAiSoftware: Software[] = [
         "description": "DALL·E 2 by OpenAI is a new AI system that can create realistic images and art from a description in natural language.",
         "category": "Image Models",
         "url": "https://openai.com/dall-e-2/",
-        "tags": []
     },
     {
         "id": "172",
@@ -1375,7 +1204,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Stable Diffusion by Stability AI is a state-of-the-art text-to-image model that generates images from text. #opensource",
         "category": "Image Models",
         "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
-        "tags": []
     },
     {
         "id": "173",
@@ -1383,7 +1211,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.",
         "category": "Image Models",
         "url": "https://www.midjourney.com/",
-        "tags": []
     },
     {
         "id": "174",
@@ -1391,7 +1218,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Imagen by Google is a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding.",
         "category": "Image Models",
         "url": "https://imagen.research.google/",
-        "tags": []
     },
     {
         "id": "175",
@@ -1399,7 +1225,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Make-A-Scene by Meta is a multimodal generative AI method puts creative control in the hands of people who use it by allowing them to describe and illustrate their vision through both text descriptions and freeform sketches.",
         "category": "Image Models",
         "url": "https://ai.facebook.com/blog/greater-creative-control-for-ai-image-generation/",
-        "tags": []
     },
     {
         "id": "176",
@@ -1407,7 +1232,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold.",
         "category": "Image Models",
         "url": "https://github.com/XingangPan/DragGAN",
-        "tags": []
     },
     {
         "id": "177",
@@ -1415,7 +1239,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate and Edit your Pictures with the help of AI",
         "category": "Image Models",
         "url": "https://www.canva.com/",
-        "tags": []
     },
     {
         "id": "178",
@@ -1423,7 +1246,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Craiyon, formerly DALL-E mini, is an AI model that can draw images from any text prompt.",
         "category": "Services",
         "url": "https://www.craiyon.com/",
-        "tags": []
     },
     {
         "id": "179",
@@ -1431,7 +1253,6 @@ export const originalAiSoftware: Software[] = [
         "description": "DreamStudio is an easy-to-use interface for creating images using the Stable Diffusion image generation model.",
         "category": "Services",
         "url": "https://beta.dreamstudio.ai/",
-        "tags": []
     },
     {
         "id": "180",
@@ -1439,7 +1260,6 @@ export const originalAiSoftware: Software[] = [
         "description": "GauGAN2 is a robust tool for creating photorealistic art using a combination of words and drawings since it integrates segmentation mapping, inpainting, and text-to-image production in a single model.",
         "category": "Services",
         "url": "http://gaugan.org/gaugan2/",
-        "tags": []
     },
     {
         "id": "181",
@@ -1447,7 +1267,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Remove unwanted things from images in seconds.",
         "category": "Services",
         "url": "https://www.magiceraser.io/",
-        "tags": []
     },
     {
         "id": "182",
@@ -1455,7 +1274,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A tool by Magic Studio that let's you express yourself by just describing what's on your mind.",
         "category": "Services",
         "url": "https://magicstudio.com/imagine",
-        "tags": []
     },
     {
         "id": "183",
@@ -1463,7 +1281,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Stable Diffusion Photoshop plugin.",
         "category": "Services",
         "url": "https://www.getalpaca.io/",
-        "tags": []
     },
     {
         "id": "184",
@@ -1471,7 +1288,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Patience.ai is an app for creating images with Stable Diffusion, a cutting-edge AI developed by Stability.AI.",
         "category": "Services",
         "url": "https://www.patience.ai/",
-        "tags": []
     },
     {
         "id": "185",
@@ -1479,7 +1295,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate art in seconds for free. Own and share what you create. A multimedia generative studio, democratizing design and creativity.",
         "category": "Services",
         "url": "https://www.genshare.io/",
-        "tags": []
     },
     {
         "id": "186",
@@ -1487,7 +1302,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Playground AI is a free-to-use online AI image creator. Use it to create art, social media posts, presentations, posters, videos, logos and more.",
         "category": "Services",
         "url": "https://playgroundai.com/",
-        "tags": []
     },
     {
         "id": "187",
@@ -1495,7 +1309,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Pixelz AI Art Generator enables you to create incredible art from text. Stable Diffusion, CLIP Guided Diffusion & PXL·E realistic algorithms available.",
         "category": "Services",
         "url": "https://pixelz.ai/",
-        "tags": []
     },
     {
         "id": "188",
@@ -1503,7 +1316,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The image editor you've always wanted. AI-powered creative tools in your browser. Real-time collaboration.",
         "category": "Services",
         "url": "https://www.modyfi.io/",
-        "tags": []
     },
     {
         "id": "189",
@@ -1511,7 +1323,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Ponzu is your free AI logo generator. Build your brand with creatively designed logos in seconds, using only your imagination.",
         "category": "Services",
         "url": "https://www.ponzu.ai/",
-        "tags": []
     },
     {
         "id": "190",
@@ -1519,7 +1330,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create product and portrait pictures using only your phone. Remove background, change background and showcase products.",
         "category": "Services",
         "url": "https://www.photoroom.com/",
-        "tags": []
     },
     {
         "id": "191",
@@ -1527,7 +1337,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create your own AI-generated avatars.",
         "category": "Services",
         "url": "https://avatarai.me/",
-        "tags": []
     },
     {
         "id": "192",
@@ -1535,7 +1344,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create professional visuals without a photo studio, powered by .",
         "category": "Services",
         "url": "https://clipdrop.co/",
-        "tags": []
     },
     {
         "id": "193",
@@ -1543,7 +1351,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An all-in-one image editing app that includes the generation of personalized avatars using Stable Diffusion.",
         "category": "Services",
         "url": "https://prisma-ai.com/lensa",
-        "tags": []
     },
     {
         "id": "194",
@@ -1551,7 +1358,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Cloud-based workspace for creating AI-generated art.",
         "category": "Services",
         "url": "https://rundiffusion.com/",
-        "tags": []
     },
     {
         "id": "195",
@@ -1559,7 +1365,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI generator or realistic looking photos of humans.",
         "category": "Services",
         "url": "https://generated.photos/human-generator",
-        "tags": []
     },
     {
         "id": "196",
@@ -1567,7 +1372,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create vector images with AI.",
         "category": "Services",
         "url": "https://vectorart.ai",
-        "tags": []
     },
     {
         "id": "197",
@@ -1575,7 +1379,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Great stock photos, made for you.",
         "category": "Services",
         "url": "https://www.stockphotoai.net/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "198",
@@ -1583,7 +1386,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Transform your room effortlessly with Room Reinvented! Upload a photo and let AI create over 30 stunning interior styles. Elevate your space today.",
         "category": "Services",
         "url": "https://roomreinvented.com",
-        "tags": []
     },
     {
         "id": "199",
@@ -1591,7 +1393,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Gensbot uses AI to craft personalised printed merchandise. One prompt creates one unique product to fit your needs.",
         "category": "Services",
         "url": "https://gensbot.com",
-        "tags": []
     },
     {
         "id": "200",
@@ -1599,7 +1400,6 @@ export const originalAiSoftware: Software[] = [
         "description": "free AI-generated plant images",
         "category": "Services",
         "url": "https://www.plantphotoai.com/",
-        "tags": []
     },
     {
         "id": "201",
@@ -1607,7 +1407,6 @@ export const originalAiSoftware: Software[] = [
         "description": "multi-model simultaneous generation from a single prompt, fully unrestricted and packed with the latest greatest AI models.",
         "category": "Services",
         "url": "https://republiclabs.ai/",
-        "tags": []
     },
     {
         "id": "202",
@@ -1615,7 +1414,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI headshots generator for black professionals",
         "category": "Services",
         "url": "https://www.blackheadshots.com",
-        "tags": []
     },
     {
         "id": "203",
@@ -1623,7 +1421,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Free realistic AI photo generator platform",
         "category": "Services",
         "url": "https://pixvify.com/",
-        "tags": []
     },
     {
         "id": "204",
@@ -1631,7 +1428,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Pet Portraits",
         "category": "Services",
         "url": "https://www.pawtrait.art/",
-        "tags": []
     },
     {
         "id": "205",
@@ -1639,7 +1435,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Free AI Coloring Pages Generator",
         "category": "Services",
         "url": "https://icoloring.ai",
-        "tags": []
     },
     {
         "id": "206",
@@ -1647,7 +1442,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate pictures of you wearing a suit with AI.",
         "category": "Services",
         "url": "https://suitmeup.pictures/",
-        "tags": []
     },
     {
         "id": "207",
@@ -1655,7 +1449,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A Telegram bot to generate AI pictures of you.",
         "category": "Services",
         "url": "https://aiphotoforge.com/",
-        "tags": []
     },
     {
         "id": "208",
@@ -1663,7 +1456,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based logo design tool.",
         "category": "Graphic design",
         "url": "https://brandmark.io/",
-        "tags": []
     },
     {
         "id": "209",
@@ -1671,7 +1463,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create beautiful presentations and webpages with none of the formatting and design work.",
         "category": "Graphic design",
         "url": "https://gamma.app/",
-        "tags": []
     },
     {
         "id": "210",
@@ -1679,7 +1470,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Stunning designs in a flash.",
         "category": "Graphic design",
         "url": "https://designer.microsoft.com/",
-        "tags": []
     },
     {
         "id": "211",
@@ -1687,7 +1477,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based SVG Generation and Semantic Seach",
         "category": "Graphic design",
         "url": "https://svgstud.io/",
-        "tags": []
     },
     {
         "id": "212",
@@ -1695,7 +1484,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Stable Diffusion search engine.",
         "category": "Image libraries",
         "url": "https://lexica.art/",
-        "tags": []
     },
     {
         "id": "213",
@@ -1703,7 +1491,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The largest library of AI-generated images.",
         "category": "Image libraries",
         "url": "https://libraire.ai/",
-        "tags": []
     },
     {
         "id": "214",
@@ -1711,7 +1498,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Explore millions of AI-generated images and create collections of prompts. Featuring Stable Diffusion generations.",
         "category": "Image libraries",
         "url": "https://www.krea.ai/",
-        "tags": []
     },
     {
         "id": "215",
@@ -1719,7 +1505,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Search 10M+ of prompts, and generate AI art via Stable Diffusion, DALL·E 2.",
         "category": "Image libraries",
         "url": "https://openart.ai/",
-        "tags": []
     },
     {
         "id": "216",
@@ -1727,7 +1512,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Built-in templates for generating or editing any pictures. Moreover, you can create your own design.",
         "category": "Image libraries",
         "url": "https://app.phygital.plus/",
-        "tags": []
     },
     {
         "id": "217",
@@ -1735,7 +1519,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generating AI Images.",
         "category": "Image libraries",
         "url": "https://www.canva.com/ai-image-generator/",
-        "tags": []
     },
     {
         "id": "218",
@@ -1743,7 +1526,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Community-driven AI model sharing tool.",
         "category": "Model libraries",
         "url": "https://civitai.com/",
-        "tags": []
     },
     {
         "id": "219",
@@ -1751,7 +1533,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A comprehensive list of Stable Diffusion checkpoints on rentry.org.",
         "category": "Model libraries",
         "url": "https://rentry.org/sdmodels",
-        "tags": []
     },
     {
         "id": "220",
@@ -1759,7 +1540,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A crowdsourced distributed cluster of Stable Diffusion workers.",
         "category": "Stable Diffusion resources",
         "url": "https://stablehorde.net/",
-        "tags": []
     },
     {
         "id": "221",
@@ -1767,7 +1547,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A list of all public apps, developer tools, guides and plugins for Stable Diffusion. .",
         "category": "Stable Diffusion resources",
         "url": "https://diffusiondb.com/",
-        "tags": []
     },
     {
         "id": "222",
@@ -1775,7 +1554,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A collection of free prompts for Stable Diffusion.",
         "category": "Stable Diffusion resources",
         "url": "https://publicprompts.art/",
-        "tags": []
     },
     {
         "id": "223",
@@ -1783,7 +1561,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Stableboost is a Stable Diffusion WebUI that lets you quickly generate a lot of images so you can find the perfect ones.",
         "category": "Stable Diffusion resources",
         "url": "https://stableboost.ai/",
-        "tags": []
     },
     {
         "id": "224",
@@ -1791,7 +1568,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Python materials for the online course on diffusion models by .",
         "category": "Stable Diffusion resources",
         "url": "https://github.com/huggingface/diffusion-models-class",
-        "tags": []
     },
     {
         "id": "225",
@@ -1799,7 +1575,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create videos from plain text in minutes.",
         "category": "Video",
         "url": "https://www.synthesia.io/",
-        "tags": []
     },
     {
         "id": "226",
@@ -1807,7 +1582,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Rephrase's technology enables hyper-personalized video creation at scale that drive engagement and business efficiencies.",
         "category": "Video",
         "url": "https://www.rephrase.ai/",
-        "tags": []
     },
     {
         "id": "227",
@@ -1815,7 +1589,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Turn text into video, featuring virtual presenters, automatically.",
         "category": "Video",
         "url": "https://hourone.ai/",
-        "tags": []
     },
     {
         "id": "228",
@@ -1823,7 +1596,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create and interact with talking avatars at the touch of a button.",
         "category": "Video",
         "url": "https://www.d-id.com/",
-        "tags": []
     },
     {
         "id": "229",
@@ -1831,7 +1603,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create short videos with audio using text prompts.",
         "category": "Video",
         "url": "https://shortgen.video/",
-        "tags": []
     },
     {
         "id": "230",
@@ -1839,7 +1610,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A tool for cutting long videos into dozens of short clips.",
         "category": "Video",
         "url": "https://clipwing.pro/",
-        "tags": []
     },
     {
         "id": "231",
@@ -1847,7 +1617,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI powered podcast marketing assistant.",
         "category": "Video",
         "url": "https://recast.studio",
-        "tags": []
     },
     {
         "id": "232",
@@ -1855,7 +1624,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Intuitive Interface for Video creating",
         "category": "Video",
         "url": "https://www.basedlabs.ai/",
-        "tags": []
     },
     {
         "id": "233",
@@ -1863,7 +1631,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Seamlessly integrates with Descript’s transcription and editing tools, ideal for content creators needing quick voiceovers.",
         "category": "AI Voice Cloning",
         "url": "https://www.descript.com/overdub",
-        "tags": []
     },
     {
         "id": "234",
@@ -1871,7 +1638,6 @@ export const originalAiSoftware: Software[] = [
         "description": " A professional tool widely used in the entertainment industry to create emotion-rich, realistic voice clones.",
         "category": "AI Voice Cloning",
         "url": "https://www.respeecher.com/",
-        "tags": []
     },
     {
         "id": "235",
@@ -1879,7 +1645,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Known for ultra-realistic voice cloning and emotion modeling, setting a new standard in AI-driven voice synthesis.",
         "category": "AI Voice Cloning",
         "url": "https://elevenlabs.io/",
-        "tags": []
     },
     {
         "id": "236",
@@ -1887,7 +1652,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Offers real-time voice synthesis with customization options, making it versatile for both developers and creatives.",
         "category": "AI Voice Cloning",
         "url": "https://www.resemble.ai/",
-        "tags": []
     },
     {
         "id": "237",
@@ -1895,7 +1659,6 @@ export const originalAiSoftware: Software[] = [
         "description": "User-friendly platform for quick, high-quality voiceovers, favored for commercial and marketing applications.",
         "category": "AI Voice Cloning",
         "url": "https://murf.ai/",
-        "tags": []
     },
     {
         "id": "238",
@@ -1903,7 +1666,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A versatile solution for corporate applications with support for a wide array of languages and voices.",
         "category": "AI Voice Cloning",
         "url": "https://www.ispeech.org/",
-        "tags": []
     },
     {
         "id": "239",
@@ -1911,7 +1673,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Focuses on maintaining brand consistency with highly customizable voice cloning used in media and entertainment.",
         "category": "AI Voice Cloning",
         "url": "https://www.veritone.com/solutions/voice/",
-        "tags": []
     },
     {
         "id": "240",
@@ -1919,7 +1680,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Review - Scalable and highly customizable, ideal for integration into enterprise applications.",
         "category": "AI Voice Cloning",
         "url": "https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/",
-        "tags": []
     },
     {
         "id": "241",
@@ -1927,7 +1687,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Gaining traction for its natural-sounding voiceovers, particularly in corporate training and e-learning.",
         "category": "AI Voice Cloning",
         "url": "https://www.wellsaidlabs.com/",
-        "tags": []
     },
     {
         "id": "242",
@@ -1935,7 +1694,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A compelling choice for creative professionals, especially useful in ads and explainer videos.",
         "category": "AI Voice Cloning",
         "url": "https://www.lovo.ai/",
-        "tags": []
     },
     {
         "id": "243",
@@ -1943,7 +1701,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An app to generate podcast eposode ( script + Audio ) using AI.",
         "category": "AI Voice Cloning",
         "url": "https://zenmic.com",
-        "tags": []
     },
     {
         "id": "244",
@@ -1951,7 +1708,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A versatile platform offering intuitive music creation tools for all skill levels.",
         "category": "AI Music Generators",
         "url": "https://www.splashpro.com",
-        "tags": []
     },
     {
         "id": "245",
@@ -1959,7 +1715,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI composer specializing in classical and cinematic music creation.",
         "category": "AI Music Generators",
         "url": "https://www.aiva.ai",
-        "tags": []
     },
     {
         "id": "246",
@@ -1967,7 +1722,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Real-time generative music tailored for different use cases.",
         "category": "AI Music Generators",
         "url": "https://www.mubert.com",
-        "tags": []
     },
     {
         "id": "247",
@@ -1975,7 +1729,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Allows users to customize music compositions based on mood and style.",
         "category": "AI Music Generators",
         "url": "https://soundraw.io",
-        "tags": []
     },
     {
         "id": "248",
@@ -1983,7 +1736,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-driven music generation focused on evoking specific emotions.",
         "category": "AI Music Generators",
         "url": "https://www.beatoven.ai",
-        "tags": []
     },
     {
         "id": "249",
@@ -1991,7 +1743,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Democratizes music creation with quick track generation and monetization.",
         "category": "AI Music Generators",
         "url": "https://www.boomy.com",
-        "tags": []
     },
     {
         "id": "250",
@@ -1999,7 +1750,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Designed for video creators, offering royalty-free music.",
         "category": "AI Music Generators",
         "url": "https://www.ecrettmusic.com",
-        "tags": []
     },
     {
         "id": "251",
@@ -2007,7 +1757,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Combines AI music generation with a social platform for collaboration.",
         "category": "AI Music Generators",
         "url": "https://www.loudly.com",
-        "tags": []
     },
     {
         "id": "252",
@@ -2015,7 +1764,6 @@ export const originalAiSoftware: Software[] = [
         "description": "High-quality, royalty-free music for content creators.",
         "category": "AI Music Generators",
         "url": "https://www.soundful.com",
-        "tags": []
     },
     {
         "id": "253",
@@ -2023,7 +1771,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Personalization platform to improve website conversions using AI.",
         "category": "Marketing AI Tools",
         "url": "https://www.mutinyhq.com/",
-        "tags": []
     },
     {
         "id": "254",
@@ -2031,7 +1778,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Lead enrichment and data intelligence platform.",
         "category": "Marketing AI Tools",
         "url": "https://clearbit.com/",
-        "tags": []
     },
     {
         "id": "255",
@@ -2039,7 +1785,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tool for email send time optimization.",
         "category": "Marketing AI Tools",
         "url": "https://www.theseventhsense.com/",
-        "tags": []
     },
     {
         "id": "256",
@@ -2047,7 +1792,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Automates social media ad creation and optimization.",
         "category": "Marketing AI Tools",
         "url": "https://www.smartly.io/",
-        "tags": []
     },
     {
         "id": "257",
@@ -2055,7 +1799,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered PPC campaign management platform.",
         "category": "Marketing AI Tools",
         "url": "https://www.adzooma.com/",
-        "tags": []
     },
     {
         "id": "258",
@@ -2063,7 +1806,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tool that generates optimized marketing copy.",
         "category": "Marketing AI Tools",
         "url": "https://www.phrasee.co/",
-        "tags": []
     },
     {
         "id": "259",
@@ -2071,7 +1813,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based social media sentiment analysis platform.",
         "category": "Marketing AI Tools",
         "url": "https://www.crimsonhexagon.com/",
-        "tags": []
     },
     {
         "id": "260",
@@ -2079,7 +1820,6 @@ export const originalAiSoftware: Software[] = [
         "description": "SEO content optimization platform using AI.",
         "category": "Marketing AI Tools",
         "url": "https://www.marketmuse.com/",
-        "tags": []
     },
     {
         "id": "261",
@@ -2087,7 +1827,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-driven chatbot for automating customer engagement on Messenger.",
         "category": "Marketing AI Tools",
         "url": "https://www.chatfuel.com/",
-        "tags": []
     },
     {
         "id": "262",
@@ -2095,7 +1834,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An AI-powered writing tool to create any type of content and supercharge your productivity.",
         "category": "Marketing AI Tools",
         "url": "https://logicballs.com/",
-        "tags": []
     },
     {
         "id": "263",
@@ -2103,7 +1841,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tools for designers and marketers",
         "category": "Marketing AI Tools",
         "url": "https://www.getrupert.com/",
-        "tags": []
     },
     {
         "id": "264",
@@ -2111,7 +1848,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create and chat with AI buyer personas for smarter marketing",
         "category": "Marketing AI Tools",
         "url": "https://personaforce.ai/",
-        "tags": []
     },
     {
         "id": "265",
@@ -2119,7 +1855,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AICaller is a simple-to-use automated bulk calling solution that uses the latest Generative AI technology to trigger phone calls for you and get things done. It can do things like lead qualification, data gathering over phone calls, and much more. It comes with a powerful API, low cost pricing and free trial.",
         "category": "Phone Calls",
         "url": "https://aicaller.io/?ref=v",
-        "tags": []
     },
     {
         "id": "266",
@@ -2127,7 +1862,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI based calling agents for outbound and inbound phone calls.",
         "category": "Phone Calls",
         "url": "https://cald.ai",
-        "tags": []
     },
     {
         "id": "267",
@@ -2135,7 +1869,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Phone Answering Service",
         "category": "Phone Calls",
         "url": "https://heyrosie.com/",
-        "tags": []
     },
     {
         "id": "268",
@@ -2143,7 +1876,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI voice generator.",
         "category": "Speech",
         "url": "https://beta.elevenlabs.io/",
-        "tags": []
     },
     {
         "id": "269",
@@ -2151,7 +1883,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Convert text to voice in real time.",
         "category": "Speech",
         "url": "https://wellsaidlabs.com/",
-        "tags": []
     },
     {
         "id": "270",
@@ -2159,7 +1890,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Voice Generator. Generate realistic Text to Speech voice over online with AI. Convert text to audio.",
         "category": "Speech",
         "url": "https://play.ht/",
-        "tags": []
     },
     {
         "id": "271",
@@ -2167,7 +1897,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generative AI for Voice.",
         "category": "Speech",
         "url": "https://coqui.ai/",
-        "tags": []
     },
     {
         "id": "272",
@@ -2175,7 +1904,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A podcast that is entirely generated by artificial intelligence, powered by Play.ht text-to-voice AI.",
         "category": "Speech",
         "url": "https://podcast.ai/",
-        "tags": []
     },
     {
         "id": "273",
@@ -2183,7 +1911,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A cross-lingual neural codec language model for cross-lingual speech synthesis.",
         "category": "Speech",
         "url": "https://vallex-demo.github.io/",
-        "tags": []
     },
     {
         "id": "274",
@@ -2191,7 +1918,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A multi-voice text-to-speech system trained with an emphasis on quality. #opensource",
         "category": "Speech",
         "url": "https://github.com/neonbjb/tortoise-tts",
-        "tags": []
     },
     {
         "id": "275",
@@ -2199,7 +1925,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A transformer-based text-to-audio model. #opensource",
         "category": "Speech",
         "url": "https://github.com/suno-ai/bark",
-        "tags": []
     },
     {
         "id": "276",
@@ -2207,7 +1932,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate daily news podcasts only on the topics you care about.",
         "category": "Speech",
         "url": "https://custompod.io",
-        "tags": []
     },
     {
         "id": "277",
@@ -2215,7 +1939,6 @@ export const originalAiSoftware: Software[] = [
         "description": "We are a community-driven organization releasing open-source generative audio tools to make music production more accessible and fun for everyone.",
         "category": "Music",
         "url": "https://www.harmonai.org/",
-        "tags": []
     },
     {
         "id": "278",
@@ -2223,7 +1946,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A royalty-free music ecosystem for content creators, brands and developers.",
         "category": "Music",
         "url": "https://mubert.com/",
-        "tags": []
     },
     {
         "id": "279",
@@ -2231,7 +1953,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A model by Google Research for generating high-fidelity music from text descriptions.",
         "category": "Music",
         "url": "https://google-research.github.io/seanet/musiclm/examples/",
-        "tags": []
     },
     {
         "id": "280",
@@ -2239,7 +1960,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Using AI, Taranify finds you Spotify playlists, Netflix shows, Books & Foods you'd enjoy when you don't exactly know what you want. ",
         "category": "Other",
         "url": "https://www.taranify.com",
-        "tags": []
     },
     {
         "id": "281",
@@ -2247,7 +1967,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Magical new ways to design products.",
         "category": "Other",
         "url": "https://diagram.com/",
-        "tags": []
     },
     {
         "id": "282",
@@ -2255,7 +1974,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A marketplace for buying and selling quality prompts for DALL·E, GPT-3, Midjourney, Stable Diffusion.",
         "category": "Other",
         "url": "https://promptbase.com/",
-        "tags": []
     },
     {
         "id": "283",
@@ -2263,7 +1981,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Test your ability to tell if an image is human or computer generated.",
         "category": "Other",
         "url": "https://thisimagedoesnotexist.com/",
-        "tags": []
     },
     {
         "id": "284",
@@ -2271,7 +1988,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Check if your image has been used to train popular AI art models.",
         "category": "Other",
         "url": "https://haveibeentrained.com/",
-        "tags": []
     },
     {
         "id": "285",
@@ -2279,7 +1995,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A text-based adventure-story game you direct (and star in) while the AI brings it to life.",
         "category": "Other",
         "url": "https://aidungeon.io/",
-        "tags": []
     },
     {
         "id": "286",
@@ -2287,7 +2002,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate ads in seconds with AI. Beautiful, brand-consistent, and highly converting ads for all marketing channels.",
         "category": "Other",
         "url": "https://www.clickable.so/",
-        "tags": []
     },
     {
         "id": "287",
@@ -2295,7 +2009,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Build, compare, and deploy large language model apps with Scale Spellbook.",
         "category": "Other",
         "url": "https://scale.com/spellbook",
-        "tags": []
     },
     {
         "id": "288",
@@ -2303,7 +2016,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-generated gaming assets.",
         "category": "Other",
         "url": "https://www.scenario.com/",
-        "tags": []
     },
     {
         "id": "289",
@@ -2311,7 +2023,6 @@ export const originalAiSoftware: Software[] = [
         "description": "An on-device AI for your meetings that listens to you and makes charismatic quote suggestions.",
         "category": "Other",
         "url": "https://github.com/danielgross/teleprompter",
-        "tags": []
     },
     {
         "id": "290",
@@ -2319,7 +2030,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Using AI, FinChat generates answers to questions about public companies and investors.",
         "category": "Other",
         "url": "https://finchat.io/",
-        "tags": []
     },
     {
         "id": "291",
@@ -2327,7 +2037,6 @@ export const originalAiSoftware: Software[] = [
         "description": "BitTorrent style platform for running AI models in a distributed way.",
         "category": "Other",
         "url": "https://github.com/bigscience-workshop/petals",
-        "tags": []
     },
     {
         "id": "292",
@@ -2335,7 +2044,6 @@ export const originalAiSoftware: Software[] = [
         "description": "No-code, automation workflow tool for building Generative AI media applications.",
         "category": "Other",
         "url": "https://shotstack.io/product/workflows/",
-        "tags": []
     },
     {
         "id": "293",
@@ -2343,7 +2051,6 @@ export const originalAiSoftware: Software[] = [
         "description": "New way to experience events.",
         "category": "Other",
         "url": "https://aispect.io/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "294",
@@ -2351,7 +2058,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Get personalized media coverage leads every morning.",
         "category": "Other",
         "url": "https://www.presspulse.ai/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "295",
@@ -2359,7 +2065,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based customer research via Reddit. Discover problems to solve, sentiment on current solutions, and people who want to buy your product.",
         "category": "Other",
         "url": "https://gummysearch.com/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "296",
@@ -2367,7 +2072,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The all-in-one, AI-powered LinkedIn tool.",
         "category": "Other",
         "url": "https://taplio.com/?ref=mahseema-awesome-ai-tools",
-        "tags": []
     },
     {
         "id": "297",
@@ -2375,7 +2079,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Search for prompts and bots, then use them with your favorite AI. All in one place.",
         "category": "Other",
         "url": "https://promptpal.net",
-        "tags": []
     },
     {
         "id": "298",
@@ -2383,7 +2086,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Personalized bedtime story generator",
         "category": "Other",
         "url": "https://fairytailai.com/",
-        "tags": []
     },
     {
         "id": "299",
@@ -2391,7 +2093,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Scale your content creation and get the best writing from ChatGPT, Copilot, and other AIs. Build and fine-tune prompts for any kind of content, from long-form to ads and email.",
         "category": "Other",
         "url": "https://www.namepepper.com/free-tools/ai-content-prompt-tool",
-        "tags": []
     },
     {
         "id": "300",
@@ -2399,7 +2100,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tools to simplify college applications. Review applications, draft essays, find universities and requirements and more.",
         "category": "Other",
         "url": "https://www.gradgpt.com/",
-        "tags": []
     },
     {
         "id": "301",
@@ -2407,7 +2107,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Visualize, Analyze, and Understand Your Code flow. Turn Code into Interactive Flowcharts with AI. Simplify Complex Logic Instantly.",
         "category": "Other",
         "url": "https://codetoflow.com",
-        "tags": []
     },
     {
         "id": "302",
@@ -2415,7 +2114,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Connect multiple AI models easily.",
         "category": "Other",
         "url": "https://ai-flow.net/",
-        "tags": []
     },
     {
         "id": "303",
@@ -2423,7 +2121,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Analyze any building architecture, and generate your own custom styles, in seconds.",
         "category": "Other",
         "url": "https://architecturehelper.com",
-        "tags": []
     },
     {
         "id": "304",
@@ -2431,7 +2128,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-Powered Vocal and Instrumental Isolation for Your Favorite Tracks",
         "category": "Other",
         "url": "https://vocalreplica.com/",
-        "tags": []
     },
     {
         "id": "305",
@@ -2439,7 +2135,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Generate a personalized wedding speech with AI",
         "category": "Other",
         "url": "https://aiweddingtoast.com",
-        "tags": []
     },
     {
         "id": "306",
@@ -2447,7 +2142,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Your Personal Interview Prep & Copilot",
         "category": "Other",
         "url": "https://www.interviews.chat/",
-        "tags": []
     },
     {
         "id": "307",
@@ -2455,7 +2149,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Data Processing & ETL infrastructure for Generative AI applications",
         "category": "Other",
         "url": "https://contextdata.ai/",
-        "tags": []
     },
     {
         "id": "308",
@@ -2463,7 +2156,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Automated job search and applications",
         "category": "Other",
         "url": "https://www.getezjobs.com/",
-        "tags": []
     },
     {
         "id": "309",
@@ -2471,7 +2163,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI driven answers to SaaS research questions",
         "category": "Other",
         "url": "https://www.getwhys.io/compass",
-        "tags": []
     },
     {
         "id": "310",
@@ -2479,7 +2170,6 @@ export const originalAiSoftware: Software[] = [
         "description": "CV screening automation and blind CV generator, AI backed ATS",
         "category": "Other",
         "url": "https://adon-web.awakast.com/en/recruiter/",
-        "tags": []
     },
     {
         "id": "311",
@@ -2487,7 +2177,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Persuva is the AI-driven platform to create persuasive, high-converting ad copy at scale.",
         "category": "Other",
         "url": "https://persuva.ai",
-        "tags": []
     },
     {
         "id": "312",
@@ -2495,7 +2184,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Ace your live coding interviews with our AI Copilot",
         "category": "Other",
         "url": "https://interviewsolver.com",
-        "tags": []
     },
     {
         "id": "313",
@@ -2503,7 +2191,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI LinkedIn Coach: Personalized content, trends & scheduling.",
         "category": "Other",
         "url": "https://socialsonic.com",
-        "tags": []
     },
     {
         "id": "314",
@@ -2511,7 +2198,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Napkin turns your text into visuals so sharing your ideas is quick and effective.",
         "category": "Other",
         "url": "https://www.napkin.ai/",
-        "tags": []
     },
     {
         "id": "315",
@@ -2519,7 +2205,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Exam Generator",
         "category": "Other",
         "url": "https://www.examsamur.ai/",
-        "tags": []
     },
     {
         "id": "316",
@@ -2527,7 +2212,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Remove watermarks from images and videos.",
         "category": "Other",
         "url": "https://aiwatermarkremover.io/",
-        "tags": []
     },
     {
         "id": "317",
@@ -2535,7 +2219,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Collection of AI Powered Video and Photo Tools",
         "category": "Other",
         "url": "https://aisaver.io",
-        "tags": []
     },
     {
         "id": "318",
@@ -2543,7 +2226,6 @@ export const originalAiSoftware: Software[] = [
         "description": "run LLM backends, APIs, frontends, and services with one command",
         "category": "Other",
         "url": "https://github.com/av/harbor",
-        "tags": []
     },
     {
         "id": "319",
@@ -2551,7 +2233,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Learn languages from native content.",
         "category": "Other",
         "url": "https://easytolearn.io",
-        "tags": []
     },
     {
         "id": "320",
@@ -2559,7 +2240,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI powered contract management software",
         "category": "Other",
         "url": "https://fynk.com/",
-        "tags": []
     },
     {
         "id": "321",
@@ -2567,7 +2247,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Find out how hot you are using AI",
         "category": "Other",
         "url": "https://looksmax.ai",
-        "tags": []
     },
     {
         "id": "322",
@@ -2575,7 +2254,6 @@ export const originalAiSoftware: Software[] = [
         "description": "List of best AI Tools",
         "category": "Other",
         "url": "https://theresanai.com",
-        "tags": []
     },
     {
         "id": "323",
@@ -2583,7 +2261,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Create voiceover with the most lifelike AI voices.",
         "category": "Other",
         "url": "https://get.murf.ai/v8i9to5ad4oq",
-        "tags": []
     },
     {
         "id": "324",
@@ -2591,7 +2268,6 @@ export const originalAiSoftware: Software[] = [
         "description": "an email management software as a service that integrates with IMAP and Exchange Web Services email accounts.",
         "category": "Other",
         "url": "https://try.sanebox.com/yzkpe5s68xk2",
-        "tags": []
     },
     {
         "id": "325",
@@ -2599,7 +2275,6 @@ export const originalAiSoftware: Software[] = [
         "description": "an AI meeting assistant that automatically video records, transcribes, summarizes, and provides the key points from every meeting.",
         "category": "Other",
         "url": "https://get.meetgeek.ai/zmrnb5xlyfs9",
-        "tags": []
     },
     {
         "id": "326",
@@ -2607,7 +2282,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A free, open-source course on communicating with artificial intelligence.",
         "category": "Learning resources",
         "url": "https://learnprompting.org/",
-        "tags": []
     },
     {
         "id": "327",
@@ -2615,7 +2289,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Guide and resources for prompt engineering.",
         "category": "Learning resources",
         "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-        "tags": []
     },
     {
         "id": "328",
@@ -2623,7 +2296,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A short course by Isa Fulford (OpenAI) and Andrew Ng (DeepLearning.AI).",
         "category": "Learning resources",
         "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
-        "tags": []
     },
     {
         "id": "329",
@@ -2631,7 +2303,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Examples and guides for using the OpenAI API.",
         "category": "Learning resources",
         "url": "https://github.com/openai/openai-cookbook",
-        "tags": []
     },
     {
         "id": "330",
@@ -2639,7 +2310,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Youtube channel about AI safety",
         "category": "Learning resources",
         "url": "https://www.youtube.com/@RobertMilesAI",
-        "tags": []
     },
     {
         "id": "331",
@@ -2647,7 +2317,6 @@ export const originalAiSoftware: Software[] = [
         "description": "A roadmap connecting many of the most important concepts in machine learning, how to learn them, and what tools to use to perform them.",
         "category": "Machine Learning",
         "url": "https://github.com/mrdbourke/machine-learning-roadmap",
-        "tags": []
     },
     {
         "id": "332",
@@ -2655,7 +2324,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Ng’s gentle introduction to machine learning course is perfect for engineers who want a foundational overview of key concepts in the field.",
         "category": "Machine Learning",
         "url": "https://www.coursera.org/learn/machine-learning",
-        "tags": []
     },
     {
         "id": "333",
@@ -2663,7 +2331,6 @@ export const originalAiSoftware: Software[] = [
         "description": "robust introduction to the subject and also the foundation for a Data Analyst “nanodegree” certification sponsored by Facebook and MongoDB.",
         "category": "Machine Learning",
         "url": "https://www.udacity.com/course/intro-to-machine-learning--ud120",
-        "tags": []
     },
     {
         "id": "334",
@@ -2671,7 +2338,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Roadmaps featuring essential concepts, learning methods, and the tools to put them into practice.",
         "category": "Machine Learning",
         "url": "https://www.scaler.com/blog/category/artificial-intelligence-machine-learning/",
-        "tags": []
     },
     {
         "id": "335",
@@ -2679,7 +2345,6 @@ export const originalAiSoftware: Software[] = [
         "description": "provides a step-by-step guide for beginners to understand and develop AI skills. It covers foundational topics like programming (Python), mathematics, and machine learning, progressing to advanced concepts such as deep learning and neural networks.",
         "category": "Machine Learning",
         "url": "https://www.appliedaicourse.com/blog/how-to-learn-artificial-intelligence-ai/",
-        "tags": []
     },
     {
         "id": "336",
@@ -2687,7 +2352,6 @@ export const originalAiSoftware: Software[] = [
         "description": "it is now removed from cousrea but still check these list",
         "category": "Deep Learning",
         "url": "https://medium.com/kaggle-blog",
-        "tags": []
     },
     {
         "id": "337",
@@ -2695,7 +2359,6 @@ export const originalAiSoftware: Software[] = [
         "description": "The in-person certificate courses are not free, but all of the content is available on Fast.ai as MOOCs.",
         "category": "Deep Learning",
         "url": "https://www.fast.ai/",
-        "tags": []
     },
     {
         "id": "338",
@@ -2703,7 +2366,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Notes, programming assignments and quizzes from all courses within the Coursera Deep Learning specialization offered by deeplearning.ai",
         "category": "Deep Learning",
         "url": "https://github.com/pratham5368/coursera-deep-learning-specialization",
-        "tags": []
     },
     {
         "id": "339",
@@ -2711,7 +2373,6 @@ export const originalAiSoftware: Software[] = [
         "description": "all important notes to learn pytorch with all the examples in google colab",
         "category": "Deep Learning",
         "url": "https://github.com/pratham5368/Tecnologies-I-Learn/tree/main/31-pytorch",
-        "tags": []
     },
     {
         "id": "340",
@@ -2719,7 +2380,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI Animal Explorer is an Omniverse extension that enables creators to quickly prototype unique 3D animal meshes.",
         "category": "NVIDIA Platform Extensions",
         "url": "https://docs.omniverse.nvidia.com/extensions/latest/ext_animal-explorer.html#installation",
-        "tags": []
     },
     {
         "id": "341",
@@ -2727,7 +2387,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI writing assistant for marketing content, blogs, and sales copy generation.",
         "category": "Content Creation",
         "url": "https://writesonic.com/",
-        "tags": []
     },
     {
         "id": "342",
@@ -2735,7 +2394,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Leverages AI to deliver personalized content recommendations based on user behavior.",
         "category": "Personalization",
         "url": "https://www.pathfactory.com/",
-        "tags": []
     },
     {
         "id": "343",
@@ -2743,7 +2401,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based personalization engine for crafting custom customer journeys.",
         "category": "Personalization",
         "url": "https://www.dynamicyield.com/",
-        "tags": []
     },
     {
         "id": "344",
@@ -2751,7 +2408,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-driven CRM platform with marketing automation for nurturing leads.",
         "category": "Lead Generation",
         "url": "https://www.hubspot.com/",
-        "tags": []
     },
     {
         "id": "345",
@@ -2759,7 +2415,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based tool for tracking website visitors and identifying sales leads.",
         "category": "Lead Generation",
         "url": "https://www.leadfeeder.com/",
-        "tags": []
     },
     {
         "id": "346",
@@ -2767,7 +2422,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered platform that automates email campaigns and audience segmentation.",
         "category": "Email Marketing",
         "url": "https://www.activecampaign.com/",
-        "tags": []
     },
     {
         "id": "347",
@@ -2775,7 +2429,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Marketing automation platform offering AI-driven insights for email marketing optimization.",
         "category": "Email Marketing",
         "url": "https://mailchimp.com/",
-        "tags": []
     },
     {
         "id": "348",
@@ -2783,7 +2436,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI tool that repurposes long-form content into social media posts optimized for different platforms.",
         "category": "Social Media",
         "url": "https://www.lately.ai/",
-        "tags": []
     },
     {
         "id": "349",
@@ -2791,7 +2443,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Fully autonomous AI-driven platform for managing cross-channel digital advertising campaigns.",
         "category": "Advertising",
         "url": "https://albert.ai/",
-        "tags": []
     },
     {
         "id": "350",
@@ -2799,7 +2450,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-based optimization tool for managing and scaling Facebook and Google ad campaigns.",
         "category": "Advertising",
         "url": "https://adespresso.com/",
-        "tags": []
     },
     {
         "id": "351",
@@ -2807,7 +2457,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI analytics platform that offers real-time insights and data visualization for marketing performance.",
         "category": "Analytics",
         "url": "https://www.domo.com/",
-        "tags": []
     },
     {
         "id": "352",
@@ -2815,7 +2464,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-driven consumer insights platform for social media listening and market research.",
         "category": "Analytics",
         "url": "https://www.brandwatch.com/",
-        "tags": []
     },
     {
         "id": "353",
@@ -2823,7 +2471,6 @@ export const originalAiSoftware: Software[] = [
         "description": "Provides AI-powered marketing analytics, social media monitoring, and brand sentiment analysis.",
         "category": "Analytics",
         "url": "https://www.talkwalker.com/",
-        "tags": []
     },
     {
         "id": "354",
@@ -2831,7 +2478,6 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered SEO tool for optimizing content and improving search engine rankings through on-page audits and suggestions.",
         "category": "SEO & Search Optimization",
         "url": "https://surferseo.com/",
-        "tags": []
     },
     {
         "id": "355",
@@ -2839,59 +2485,5 @@ export const originalAiSoftware: Software[] = [
         "description": "AI-powered SEO platform that provides keyword insights and content optimization recommendations.",
         "category": "SEO & Search Optimization",
         "url": "https://www.clearscope.io/",
-        "tags": []
     }
 ];
-
-const categoryTags: Record<string, string[]> = {
-    "Models": ["LLM", "NLP", "Language Model"],
-    "Chatbots": ["Chatbot", "Conversational", "AI Assistant"],
-    "Search engines": ["Search", "Information Retrieval", "AI Search"],
-    "Local search engines": ["Local Search", "Documents"],
-    "Writing assistants": ["Writing", "Content Creation", "Text Assistance"],
-    "ChatGPT extensions": ["ChatGPT", "Extension", "Plugin"],
-    "Productivity": ["Productivity", "Automation", "Efficiency"],
-    "Meeting assistants": ["Meeting", "Transcription", "Support"],
-    "Academia": ["Academic", "Research", "Papers"],
-    "Customer Support": ["Customer Support", "Help", "Automated Response"],
-    "Other text generators": ["Text Generation", "Copywriting"],
-    "Developer tools": ["Developer Tools", "Programming", "Code"],
-    "Code": ["Code", "Programming", "Development"],
-    "Image Generation": ["Image Generation", "Creative", "AI Art"],
-    "Image Editing": ["Image Editing", "Photo Editor", "Retouch"],
-    "Image Recognition": ["Image Recognition", "Computer Vision"],
-    "Image Enhancement": ["Image Enhancement", "Upscaling", "High Quality"],
-    "Image Compression": ["Image Compression", "Optimization", "Lightweight"],
-    "Image Models": ["Image Models", "Diffusion", "Generative Models"],
-    "Services": ["Services", "Platform", "Tools"],
-    "Graphic design": ["Graphic Design", "Design", "Creative"],
-    "Image libraries": ["Image Libraries", "Gallery", "Collection"],
-    "Model libraries": ["Model Libraries", "AI Models", "LLMs"],
-    "Stable Diffusion resources": ["Stable Diffusion", "Resources", "Guides"],
-    "Video": ["Video", "Multimedia", "Content"],
-    "AI Voice Cloning": ["Voice Cloning", "Text-to-Speech", "Voice Synthesis"],
-    "AI Music Generators": ["Music Generation", "AI Music", "Composition"],
-    "Marketing AI Tools": ["Marketing", "Automation", "Promotion"],
-    "Phone Calls": ["Phone Calls", "Calls", "Automated"],
-    "Speech": ["Speech", "Text-to-Speech", "TTS"],
-    "Music": ["Music", "Composition", "Audio"],
-    "Other": ["Other", "Miscellaneous"],
-    "Learning resources": ["Learning", "Education", "Resources"],
-    "Machine Learning": ["Machine Learning", "ML", "Artificial Intelligence"],
-    "Deep Learning": ["Deep Learning", "DL", "Neural Networks"],
-    "NVIDIA Platform Extensions": ["NVIDIA", "Platform", "Extensions"],
-    "Content Creation": ["Content Creation", "Writing", "Media"],
-    "Personalization": ["Personalization", "Customization", "User Experience"],
-    "Lead Generation": ["Lead Generation", "Marketing", "Sales"],
-    "Email Marketing": ["Email Marketing", "Automation", "Campaigns"],
-    "Social Media": ["Social Media", "SNS", "Content"],
-    "Advertising": ["Advertising", "Marketing", "Promotion"],
-    "Analytics": ["Analytics", "Data", "Insights"],
-    "SEO & Search Optimization": ["SEO", "Search Optimization", "Content"],
-  };
-  
-  export const aiSoftware: Software[] = originalAiSoftware.map((software) => ({
-    ...software,
-    tags: categoryTags[software.category] || [],
-  }));
-  
