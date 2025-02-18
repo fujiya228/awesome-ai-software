@@ -4,6 +4,10 @@
 
 This project is a curated directory of AI software, designed to help users discover and explore various AI tools and applications. It provides a searchable and filterable interface to easily find the right AI software for your needs.
 
+## GitHub Pages
+
+You can view the live demo of this project on [GitHub Pages](https://fujiya228.github.io/awesome-ai-software/).
+
 ## Technologies Used
 
 *   [Astro](https://astro.build/): A modern static site generator.
