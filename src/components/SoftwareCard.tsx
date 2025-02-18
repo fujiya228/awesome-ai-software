@@ -37,11 +37,6 @@ export function SoftwareCard({ software }: SoftwareCardProps) {
               <CardTitle className="text-xl text-blue-100 group-hover:text-blue-50 transition-colors">
                 {software.name}
               </CardTitle>
-              {software.isPaid && (
-                <Badge variant="secondary" className="bg-blue-500/20 text-blue-200">
-                  {software.price}
-                </Badge>
-              )}
             </div>
             <CardDescription>
               <Badge variant="outline" className="mt-1 border-blue-400/30 text-blue-200">

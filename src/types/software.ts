@@ -6,6 +6,4 @@ export interface Software {
   url: string;
   imageUrl?: string;
   tags: string[];
-  isPaid: boolean;
-  price?: string;
 }

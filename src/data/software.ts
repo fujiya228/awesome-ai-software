@@ -9,8 +9,6 @@ export const aiSoftware: Software[] = [
         url: "https://chat.openai.com",
         imageUrl: "https://example.com/chatgpt.png",
         tags: ["Natural Language Processing", "AI Conversation", "Text Generation"],
-        isPaid: true,
-        price: "$20/month"
     },
     {
         id: "2",
@@ -20,8 +18,6 @@ export const aiSoftware: Software[] = [
         url: "https://www.midjourney.com",
         imageUrl: "https://example.com/midjourney.png",
         tags: ["AI Image Generation", "Art", "Design"],
-        isPaid: true,
-        price: "$10/month"
     },
     {
         id: "3",
@@ -31,7 +27,5 @@ export const aiSoftware: Software[] = [
         url: "https://github.com/features/copilot",
         imageUrl: "https://example.com/copilot.png",
         tags: ["Code Completion", "Development Support", "Programming"],
-        isPaid: true,
-        price: "$10/month"
     }
 ];
