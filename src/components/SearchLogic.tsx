@@ -23,17 +23,17 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
           const software: Software = JSON.parse(softwareDataStr);
           let isMatch = true;
 
-          // カテゴリーフィルター
+          // Category filter
           if (category !== 'all' && software.category !== category) {
             isMatch = false;
           }
 
-          // タグフィルター
+          // Tag filter
           if (selectedTags.length > 0 && !selectedTags.every(tag => software.tags.includes(tag))) {
             isMatch = false;
           }
 
-          // テキスト検索
+          // Text search
           if (query) {
             const searchText = query.toLowerCase().trim();
             const matchText = (() => {
@@ -71,7 +71,7 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
         noResultsEl.classList.toggle('hidden', visibleCount > 0);
       }
 
-      // デバッグ情報
+      // Debug information
       console.log('Search executed:', {
         query,
         searchType,
@@ -82,10 +82,10 @@ export function SearchLogic({ query, searchType, category, selectedTags }: Searc
       });
     };
 
-    // 検索を実行
+    // Execute search
     applySearch();
 
-    // DOMの更新が完了したことを確認するために、次のフレームで再度実行
+    // Re-execute on the next frame to ensure DOM updates are complete
     requestAnimationFrame(applySearch);
   }, [query, searchType, category, selectedTags]);
 

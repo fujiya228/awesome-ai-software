@@ -30,7 +30,7 @@ export function SearchForm({ onSearch, categories, tags }: SearchFormProps) {
       const x = e.clientX - rect.left;
       const y = e.clientY - rect.top;
 
-      // グラデーションの位置を更新
+      // Update the position of the gradient
       form.style.setProperty('--mouse-x', `${x}px`);
       form.style.setProperty('--mouse-y', `${y}px`);
     };

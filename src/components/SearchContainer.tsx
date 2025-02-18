@@ -28,17 +28,17 @@ export function SearchContainer({ categories, tags, software }: SearchContainerP
   const filterSoftware = useCallback((software: Software) => {
     const { query, searchType, category, selectedTags } = searchState;
 
-    // カテゴリーフィルター
+    // Category filter
     if (category !== 'all' && software.category !== category) {
       return false;
     }
 
-    // タグフィルター
+    // Tag filter
     if (selectedTags.length > 0 && !selectedTags.every(tag => software.tags.includes(tag))) {
       return false;
     }
 
-    // テキスト検索
+    // Text search
     if (query) {
       const searchText = query.toLowerCase().trim();
       switch (searchType) {
