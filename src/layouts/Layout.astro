@@ -1,5 +1,6 @@
 ---
 import { ViewTransitions } from 'astro:transitions';
+import Header from '../components/Header';
 interface Props {
 	title?: string;
 }
@@ -13,7 +14,7 @@ const { title = "Awesome AI Software" } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content="AIソフトウェアのディレクトリ" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/awesome-ai-software/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 			<title>{title}</title>
 		<ViewTransitions />
@@ -33,6 +34,7 @@ const { title = "Awesome AI Software" } = Astro.props;
 			<!-- グリッドパターン -->
 			<div class="absolute inset-0 opacity-10" style="background-image: linear-gradient(to right, #203060 1px, transparent 1px), linear-gradient(to bottom, #203060 1px, transparent 1px); background-size: 50px 50px;"></div>
 		</div>
+		<Header />
 
 		<!-- メインコンテンツ -->
 		<div class="relative z-10">
