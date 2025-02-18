@@ -135,10 +135,132 @@
 }
 
 @layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+ 
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+ 
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+ 
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+ 
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+ 
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+ 
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground min-h-screen;
+    background: radial-gradient(circle at center, rgb(16, 24, 39) 0%, rgb(2, 6, 23) 100%);
   }
+}
+
+/* ネオン輝きエフェクト */
+.neon-glow {
+  position: relative;
+}
+
+.neon-glow::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  background: radial-gradient(
+    circle at center,
+    rgba(59, 130, 246, 0.15) 0%,
+    rgba(16, 24, 39, 0) 70%
+  );
+  filter: blur(40px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* カードのホバーエフェクトを強化 */
+.card-neon-hover {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.card-neon-hover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    800px circle at var(--x) var(--y),
+    rgba(59, 130, 246, 0.1),
+    transparent 40%
+  );
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.card-neon-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 0 20px rgba(59, 130, 246, 0.3),
+    0 0 40px rgba(59, 130, 246, 0.1);
+}
+
+.card-neon-hover:hover::before {
+  opacity: 1;
+}
+
+/* グローバルなアニメーション */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* アニメーションされたネオングローエフェクト */
+@keyframes neonPulse {
+  0%, 100% {
+    text-shadow: 0 0 4px rgba(59, 130, 246, 0.7),
+                0 0 11px rgba(59, 130, 246, 0.7),
+                0 0 19px rgba(59, 130, 246, 0.7),
+                0 0 40px rgba(59, 130, 246, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 4px rgba(59, 130, 246, 0.4),
+                0 0 11px rgba(59, 130, 246, 0.4),
+                0 0 19px rgba(59, 130, 246, 0.4),
+                0 0 40px rgba(59, 130, 246, 0.4);
+  }
+}
+
+.neon-text {
+  animation: neonPulse 2s ease-in-out infinite;
+  color: rgb(219, 234, 254);
 }

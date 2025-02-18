@@ -1,22 +1,42 @@
-<!doctype html>
-<html lang="en">
+---
+import { ViewTransitions } from 'astro:transitions';
+interface Props {
+	title?: string;
+}
+
+const { title = "Awesome AI Software" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="ja">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="description" content="AIソフトウェアのディレクトリ" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+			<title>{title}</title>
+		<ViewTransitions />
 	</head>
-	<body>
-		<slot />
+	<body class="min-h-screen bg-gradient-to-b from-gray-900 to-black relative overflow-x-hidden">
+		<!-- バックグラウンドエフェクト -->
+		<div class="fixed inset-0 z-0">
+			<!-- グラデーションオーバーレイ -->
+			<div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-black/50"></div>
+			
+			<!-- ネオングロー効果 -->
+			<div class="absolute inset-0">
+				<div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/30 rounded-full filter blur-[128px] animate-pulse"></div>
+				<div class="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full filter blur-[128px] animate-pulse delay-1000"></div>
+			</div>
+			
+			<!-- グリッドパターン -->
+			<div class="absolute inset-0 opacity-10" style="background-image: linear-gradient(to right, #203060 1px, transparent 1px), linear-gradient(to bottom, #203060 1px, transparent 1px); background-size: 50px 50px;"></div>
+		</div>
+
+		<!-- メインコンテンツ -->
+		<div class="relative z-10">
+			<slot />
+		</div>
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
